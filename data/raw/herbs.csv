@@ -1,0 +1,744 @@
+herb,category,nature,flavors,meridians,toxicity,dose_min,dose_max,pregnancy,pinyin,latin_name,data_source
+哈蟆油,其他,平,甘|咸,肺|肾,,,,,Hamayou,Ranae Oviductus,SymMap2.0/中国药典
+硫黄,其他,温,酸,肾|大肠,有毒,1.5,3.0,禁用,Liuhuang,Sulfur,SymMap2.0/中国药典
+童便,其他,寒,咸,肺|肝|肾,,,,,TongBian,Urina Pueri,中药学/中国药典
+粳米,其他,平,甘,脾|胃,,,,,JingMi,Oryzae Semen,中药学/中国药典
+虫白蜡,其他,温,甘|淡,肝,,,,,Chongbaila,Cera Chinensis,SymMap2.0/中国药典
+醋,其他,温,酸|苦,肝|胃,,,,,Cu,Acetum,中药学/中国药典
+颠茄草,其他,平,甘,,,,,,Dianqiecao,Belladonnae Herba,SymMap2.0/中国药典
+黄酒,其他,温,甘|辛,心|肝|肺|胃,,,,,HuangJiu,Vinum,中药学/中国药典
+侧柏叶,凉血止血药,寒,苦|涩,肺|肝|脾,,6.0,12.0,,Cebaiye,Platycladi Cacumen,SymMap2.0/中国药典
+地榆,凉血止血药,微寒,苦|酸|涩,肝|大肠,,9.0,15.0,,Diyu,Sanguisorbae Radix,SymMap2.0/中国药典
+大蓟,凉血止血药,凉,甘|苦,心|肝,,9.0,15.0,,Daji,Cirsii Japonici Herba,SymMap2.0/中国药典
+大蓟炭,凉血止血药,凉,苦|涩,心|肝,,,,,Dajitan,Cirsii Japonici Herba Carbonisata,SymMap2.0/中国药典
+小蓟,凉血止血药,凉,甘|苦,心|肝,,5.0,10.0,,Xiaoji,Cirsii Herba,SymMap2.0/中国药典
+断血流,凉血止血药,凉,微苦|涩,肝,,,,,Duanxueliu,Herba Clinopodii,SymMap2.0/中国药典
+槐花,凉血止血药,微寒,苦,肝|大肠,,5.0,10.0,,Huaihua,Sophorae Flos,SymMap2.0/中国药典
+槐角,凉血止血药,寒,苦,肝|大肠,,,,,Huaijiao,Fructus Sophorae,SymMap2.0/中国药典
+白茅根,凉血止血药,寒,甘,肺|胃|膀胱,,9.0,30.0,,Baimaogen,Rhizoma Imperatae,SymMap2.0/中国药典
+苎麻根,凉血止血药,寒,甘,肝|心|膀胱,,,,,Zhumagen,Radix Boehmeriae,SymMap2.0/中国药典
+三白草,利水渗湿药,寒,甘|辛,肺|膀胱,,,,,Sanbaicao,Saururi Herba,SymMap2.0/中国药典
+关木通,利水渗湿药,寒,苦,心|小肠|膀胱,有毒,3.0,6.0,禁用,GuanMuTong,Aristolochiae Manshuriensis Caulis,中药学/中国药典
+冬瓜皮,利水渗湿药,凉,甘,脾|小肠,,9.0,30.0,,Dongguapi,Exocarpium Benincasae,SymMap2.0/中国药典
+地耳草,利水渗湿药,凉,甘|微苦,,,,,,Diercao,Herba Hyperici Japonici,SymMap2.0/中国药典
+地肤子,利水渗湿药,寒,辛|苦,肾|膀胱,,,,,Difuzi,Fructus Kochiae,SymMap2.0/中国药典
+小通草,利水渗湿药,寒,甘|淡,肺|胃,,,,,Xiaotongcao,Medulla Stachyuri Medulla Helwingiae,SymMap2.0/中国药典
+川木通,利水渗湿药,寒,苦,心|小肠|膀胱,,,,,Chuanmutong,Caulis Clematidis Armandii,SymMap2.0/中国药典
+广金钱草,利水渗湿药,凉,甘|淡,肝|肾|膀胱,,,,,Guangjinqiancao,Desmodii Styracifolii Herba,SymMap2.0/中国药典
+木通,利水渗湿药,寒,苦,心|小肠|膀胱,,,,慎用,Mutong,Akebiae Caulis,SymMap2.0/中国药典
+枳椇子,利水渗湿药,平,甘,胃,,,,,Zhijuzi,,SymMap2.0/中国药典
+泽泻,利水渗湿药,寒,甘|淡,肾|膀胱,,6.0,10.0,,Zexie,Rhizoma Alismatis,SymMap2.0/中国药典
+泽漆,利水渗湿药,微寒,辛|苦,肺|大肠|小肠,有毒,5.0,10.0,,Zeqi,,SymMap2.0/中国药典
+海金沙,利水渗湿药,寒,甘|咸,膀胱|小肠,,,,,Haijinsha,Spora Lygodii,SymMap2.0/中国药典
+滑石,利水渗湿药,平,甘,,,,,慎用,Huashi,Talcum,SymMap2.0/中国药典
+滑石粉,利水渗湿药,寒,甘|淡,膀胱|肺|胃,,,,,Huashifen,Talci Pulvis,SymMap2.0/中国药典
+灯心草,利水渗湿药,微寒,甘|淡,心|肺|小肠,,1.0,3.0,,Dengxincao,Junci Medulla,SymMap2.0/中国药典
+猪苓,利水渗湿药,平,甘|淡,肾|膀胱,,6.0,12.0,,Zhuling,Polyporus,SymMap2.0/中国药典
+玉米须,利水渗湿药,平,甘|淡,肾|胃|肝|胆,,15.0,30.0,,Yumixu,Stigma Maydis,SymMap2.0/中国药典
+瞿麦,利水渗湿药,寒,苦,心|小肠,,,,慎用,Qumai,Dianthi Herba,SymMap2.0/中国药典
+石韦,利水渗湿药,微寒,甘|苦,肺|膀胱,,,,,Shiwei,Pyrrosiae Folium,SymMap2.0/中国药典
+粉萆薢,利水渗湿药,平,甘,肾|胃,,9.0,15.0,,Fenbixie,Dioscoreae Hypoglaucae Rhizoma,SymMap2.0/中国药典
+绵萆薢,利水渗湿药,平,苦,肾|胃,,9.0,15.0,,Mianbixie,Dioscoreae Spongiosae Rhizoma,SymMap2.0/中国药典
+苘麻子,利水渗湿药,平,苦,大肠|小肠|膀胱,,,,,Qingmazi,Abutili Semen,SymMap2.0/中国药典
+茯苓,利水渗湿药,平,甘|淡,心|肺|脾|肾,,10.0,15.0,,Fuling,Poria,SymMap2.0/中国药典
+茯苓皮,利水渗湿药,平,甘|淡,肺|脾|肾,,,,,Fulingpi,Poriae Cutis,SymMap2.0/中国药典
+茵陈,利水渗湿药,微寒,苦|辛,脾|胃|肝|胆,,6.0,15.0,,Yinchen,Artemisiae Scopariae Herba,SymMap2.0/中国药典
+荠菜,利水渗湿药,凉,甘|淡,肝|脾|膀胱,,,,,Jicai,Herba Capsellae,SymMap2.0/中国药典
+萱草根,利水渗湿药,凉,甘,脾|肝|膀胱,有毒,,,,Xuancaogen,,SymMap2.0/中国药典
+萹蓄,利水渗湿药,微寒,苦,膀胱,,,,,Bianxu,Polygoni Avicularis Herba,SymMap2.0/中国药典
+薏苡仁,利水渗湿药,凉,甘|淡,脾|胃|肺,,9.0,30.0,慎用,Yiyiren,Semen Coicis,SymMap2.0/中国药典
+虎杖,利水渗湿药,微寒,微苦,肝|胆|肺,,,,,Huzhang,Rhizoma Polygoni Cuspidati,SymMap2.0/中国药典
+赤小豆,利水渗湿药,平,甘|酸,心|小肠,,,,,Chixiaodou,Semen Phaseoli,SymMap2.0/中国药典
+车前子,利水渗湿药,寒,甘,肝|肾|肺|小肠,,,,,Cheqianzi,Semen Plantaginis,SymMap2.0/中国药典
+车前草,利水渗湿药,寒,甘,肝|肾|肺|小肠,,,,,Cheqiancao,Plantaginis Herba,SymMap2.0/中国药典
+连钱草,利水渗湿药,微寒,辛|微苦,肝|肾|膀胱,,,,,Lianqiancao,Glechomae Herba,SymMap2.0/中国药典
+通草,利水渗湿药,微寒,甘|淡,肺|胃,,,,慎用,Tongcao,Medulla Tetrapacis,SymMap2.0/中国药典
+金钱草,利水渗湿药,微寒,甘|咸,肝|胆|肾|膀胱,,,,,Jinqiancao,Herba Glechomae Longitubae,SymMap2.0/中国药典
+青叶胆,利水渗湿药,寒,苦|甘,肝|胆|膀胱,,,,,Qingyedan,Swertiae Mileensis Herba,SymMap2.0/中国药典
+鸡骨草,利水渗湿药,凉,甘|微苦,肝|胃,,,,,Jigucao,Abri Herba,SymMap2.0/中国药典
+佩兰,化湿药,平,辛,脾|胃|肺,,,,,Peilan,Eupatorii Herba,SymMap2.0/中国药典
+厚朴,化湿药,温,苦|辛,脾|胃|肺|大肠,,3.0,10.0,慎用,Houpo,Cortex Magnoliae Officilis,SymMap2.0/中国药典
+厚朴花,化湿药,微温,苦,脾|胃,,,,,Houpohua,Magnoliae Officinalis Flos,SymMap2.0/中国药典
+广藿香,化湿药,微温,辛,脾|胃|肺,,3.0,10.0,,Guanghuoxiang,Pogostemonis Herba,SymMap2.0/中国药典
+扁豆花,化湿药,平,甘,,,,,,Biandouhua,Flos Dolichoris,SymMap2.0/中国药典
+白豆蔻,化湿药,温,辛,肺|脾|胃,,3.0,6.0,,BaiDouKou,Amomi Fructus Rotundus,中药学/中国药典
+砂仁,化湿药,温,辛,脾|胃|肾,,3.0,6.0,,Sharen,Amomi Fructus,SymMap2.0/中国药典
+苍术,化湿药,温,辛|苦,脾|胃|肝,,3.0,9.0,,Cangzhu,Atractylodis Rhizoma,SymMap2.0/中国药典
+草果,化湿药,温,辛,脾|胃,,,,,Caoguo,Tsaoko Fructus,SymMap2.0/中国药典
+草豆蔻,化湿药,温,辛,脾|胃,,3.0,6.0,,Caodoukou,Alpiniae Katsumadai Semen,SymMap2.0/中国药典
+豆蔻,化湿药,温,辛,肺|脾|胃,,3.0,6.0,,Doukou,Fructus Amomi Rotundus,SymMap2.0/中国药典
+伊贝母,化痰药,微寒,苦|甘,肺|心,,,,,Yibeimu,Fritillariae Pallidiflorae Bulbus,SymMap2.0/中国药典
+冬瓜子,化痰药,微寒,甘,肺|大肠,,10.0,15.0,,Dongguazi,,SymMap2.0/中国药典
+制天南星,化痰药,温,苦|辛,肺|肝|脾,有毒,,,,Zhitiannanxing,Arisaematis Rhizoma Preparatum,SymMap2.0/中国药典
+前胡,化痰药,微寒,苦|辛,肺,,,,,Qianhu,Peucedani Radix,SymMap2.0/中国药典
+半夏,化痰药,温,辛,脾|胃|肺,有毒,3.0,9.0,慎用,Banxia,Rhizoma Pinelliae,SymMap2.0/中国药典
+土贝母,化痰药,微寒,苦,肺|脾,,,,,Tubeimu,Bolbostemmatis Rhizoma,SymMap2.0/中国药典
+大皂角,化痰药,温,辛|咸,肺|大肠,小毒,,,,Dazaojiao,Gleditsiae Sinensis Fructus,SymMap2.0/中国药典
+天南星,化痰药,温,苦|辛,肺|肝|脾,有毒,3.0,10.0,禁用,Tiannanxing,Rhizoma Arisaematis,SymMap2.0/中国药典
+天竺黄,化痰药,寒,甘,心|肝,,,,,Tianzhuhuang,Bambusae Concretio Silicea,SymMap2.0/中国药典
+姜半夏,化痰药,温,辛,脾|胃|肺,,,,,Jiangbanxia,Pinelliae Rhizoma Praeparatumcum Zingibere Et Alumine,SymMap2.0/中国药典
+川贝母,化痰药,微寒,苦|甘,肺|心,,3.0,10.0,,Chuanbeimu,Bulbus Fritillariae Cirrhosae,SymMap2.0/中国药典
+平贝母,化痰药,微寒,苦|甘,肺|心,,,,,Pingbeimu,Bulbus Fritillariae Ussuriensis,SymMap2.0/中国药典
+旋覆花,化痰药,微温,苦|辛|咸,肺|脾|胃|大肠,,3.0,10.0,,Xuanfuhua,Flos Inulae,SymMap2.0/中国药典
+无患子,化痰药,寒,苦|辛,,小毒,,,,Wuhuanzi,,SymMap2.0/中国药典
+无患子皮,化痰药,平,苦,,小毒,,,,Wuhuanzipi,,SymMap2.0/中国药典
+昆布,化痰药,寒,咸,肝|胃|肾,,,,,Kunbu,Laminariae Thallus Eckloniae Thallus,SymMap2.0/中国药典
+暴马子皮,化痰药,微寒,苦,肺,,,,,Baomazipi,Syringae Cortex,SymMap2.0/中国药典
+桔梗,化痰药,平,苦|辛,肺,,3.0,10.0,,Jiegeng,Radix Platycodi,SymMap2.0/中国药典
+沙棘,化痰药,温,酸|涩,脾|胃|肺|心,,,,,Shaji,Fructus Hippophae,SymMap2.0/中国药典
+法半夏,化痰药,温,辛,脾|胃|肺,,,,,Fabanxia,Pinelliae Rhizoma Praeparatum,SymMap2.0/中国药典
+浙贝母,化痰药,寒,苦,肺|心,,5.0,10.0,,Zhebeimu,Bulbus Fritillariae Thunbergii,SymMap2.0/中国药典
+浮海石,化痰药,寒,咸,肺|肾,,6.0,12.0,,FuHaiShi,Pumex,中药学/中国药典
+海藻,化痰药,寒,苦|咸,肝|胃|肾,,6.0,12.0,,Haizao,Sargassum,SymMap2.0/中国药典
+清半夏,化痰药,温,辛,脾|胃|肺,,,,,Qingbanxia,Pinelliae Rhizoma Praeparatum Cum Alumine,SymMap2.0/中国药典
+湖北贝母,化痰药,凉,微苦,肺|心,,,,,Hubeibeimu,Fritillariae Hupehensis Bulbus,SymMap2.0/中国药典
+炒瓜蒌子,化痰药,寒,甘,肺|胃|大肠,,,,,Chaogualouzi,Trichosanthis Semen Tostum,SymMap2.0/中国药典
+猪牙皂,化痰药,温,辛|咸,肺|大肠,小毒,1.0,1.5,禁用,Zhuyazao,Gleditsiae Fructus Abnormalis,SymMap2.0/中国药典
+猫眼草,化痰药,微寒,苦,,有毒,,,,Maoyancao,,SymMap2.0/中国药典
+猴枣,化痰药,寒,苦,,,,,,Houzao,,SymMap2.0/中国药典
+瓜子金,化痰药,平,辛|苦,肺,,,,,Guazijin,Polygalae Japonicae Herba,SymMap2.0/中国药典
+瓜蒌,化痰药,寒,甘|微苦,肺|胃|大肠,,9.0,15.0,,Gualou,Trichosanthis Fructus,SymMap2.0/中国药典
+瓜蒌子,化痰药,寒,甘,肺|胃|大肠,,9.0,15.0,,Gualouzi,Trichosanthis Semen,SymMap2.0/中国药典
+瓜蒌皮,化痰药,寒,甘,肺|胃,,6.0,10.0,,Gualoupi,Trichosanthis Pericarpium,SymMap2.0/中国药典
+瓦楞子,化痰药,平,咸,肺|胃|肝,,9.0,15.0,,Walengzi,Concha Arcae,SymMap2.0/中国药典
+甜瓜子,化痰药,寒,甘,肺|胃|大肠,,,,,Tianguazi,Melo Semen,SymMap2.0/中国药典
+白前,化痰药,微温,辛|苦,肺,,,,,Baiqian,Cynanchi Stauntonii Rhizoma Et Radix,SymMap2.0/中国药典
+白附子,化痰药,温,辛,胃|肝,有毒,3.0,6.0,慎用,Baifuzi,Typhonii Rhizoma,SymMap2.0/中国药典
+皂荚子,化痰药,温,辛,肺|大肠,,,,,Zaojiazi,,SymMap2.0/中国药典
+皂角刺,化痰药,温,辛,肝|胃,,,,,Zhaojiaoci,Spi Gleditsiae,SymMap2.0/中国药典
+石吊兰,化痰药,温,苦,肺,,,,,Shidiaolan,Lysionoti Herba,SymMap2.0/中国药典
+竹茹,化痰药,微寒,甘,肺|胃|心|胆,,5.0,10.0,,Zhuru,Bambusae Caulis In Taenias,SymMap2.0/中国药典
+紫花前胡,化痰药,微寒,苦|辛,肺,,,,,Zihuaqianhu,Peucedani Decursivi Radix,SymMap2.0/中国药典
+罗汉果,化痰药,凉,甘,肺|大肠,,,,,Luohanguo,Fructus Momordicae,SymMap2.0/中国药典
+胆南星,化痰药,凉,苦|微辛,肺|肝|脾,,3.0,6.0,,Dannanxing,Arisaema Cum Bile,SymMap2.0/中国药典
+胖大海,化痰药,寒,甘,肺|大肠,,,,,Pangdahai,Sterculiae Lychnophorae Semen,SymMap2.0/中国药典
+芥子,化痰药,温,辛,肺,,3.0,9.0,,Jiezi,Semen Sipis,SymMap2.0/中国药典
+蛤壳,化痰药,寒,苦|咸,肺|肾|胃,,6.0,15.0,,Geqiao,Meretricis Concha Cyclinae Concha,SymMap2.0/中国药典
+野马追,化痰药,平,苦,肺,,,,,Yemazhui,Eupatorii Lindleyani Herba,SymMap2.0/中国药典
+金沸草,化痰药,温,苦|辛|咸,肺|大肠,,,,,Jinfeicao,Herba Inulae,SymMap2.0/中国药典
+金礞石,化痰药,平,甘|咸,肺|心|肝,,,,,Jingmengshi,Micae Lapis Aureus,SymMap2.0/中国药典
+青礞石,化痰药,平,甘|咸,肺|心|肝,,3.0,6.0,慎用,Qingmengshi,Chloriti Lapis,SymMap2.0/中国药典
+黄药子,化痰药,寒,苦,肺|肝,小毒,5.0,15.0,,Huangyaozi,Rhizoma Dioscoreae Bulbiferae,SymMap2.0/中国药典
+鼠曲草,化痰药,平,甘|微酸,肺,,,,,Shuqucao,,SymMap2.0/中国药典
+三七,化瘀止血药,温,甘|微苦,肝|胃,,3.0,9.0,慎用,Sanqi,Radix Notoginseng,SymMap2.0/中国药典
+卷柏,化瘀止血药,平,辛,肝|心,,,,,Juanbai,Selaginellae Herba,SymMap2.0/中国药典
+景天三七,化瘀止血药,平,甘|微酸,心|肝,,,,,Jintiansanqi,,SymMap2.0/中国药典
+茜草,化瘀止血药,寒,苦,肝,,6.0,10.0,,Qiancao,Rubiae Radix Et Rhizoma,SymMap2.0/中国药典
+蒲黄,化瘀止血药,平,甘,肝|心包,,5.0,10.0,慎用,Puhuang,Typhae Pollen,SymMap2.0/中国药典
+桂枝,发散风寒药,温,辛|甘,心|肺|膀胱,,3.0,10.0,慎用,Guizi,Cinnamomi Ramulus,SymMap2.0/中国药典
+生姜,发散风寒药,微温,辛,肺|脾|胃,,3.0,10.0,,Shengjiang,Zingiberis Rhizoma Recens,SymMap2.0/中国药典
+白芷,发散风寒药,温,辛,胃|大肠|肺,,3.0,10.0,,Baizhi,Radix Angelicae Dahuricae,SymMap2.0/中国药典
+紫苏叶,发散风寒药,温,辛,肺|脾,,5.0,10.0,,Zisuye,Perillae Folium,SymMap2.0/中国药典
+细辛,发散风寒药,温,辛,心|肺|肾,小毒,1.0,3.0,,Xixin,Herba Asari,SymMap2.0/中国药典
+羌活,发散风寒药,温,辛|苦,膀胱|肾,,3.0,10.0,,Qianghuo,Radix Et Rhizoma Notopterygii,SymMap2.0/中国药典
+荆芥,发散风寒药,微温,辛,肺|肝,,5.0,10.0,,Jingjie,Schizonepetae Herba,SymMap2.0/中国药典
+防风,发散风寒药,微温,辛|甘,膀胱|肝|脾,,5.0,10.0,,Fangfeng,Radix Saposhnikoviae Divaricatae,SymMap2.0/中国药典
+麻黄,发散风寒药,温,辛|微苦,肺|膀胱,,2.0,10.0,慎用,Mahuang,Herba Ephedrae,SymMap2.0/中国药典
+升麻,发散风热药,微寒,辛|微甘,肺|脾|胃|大肠,,3.0,10.0,,Shengma,Cimicifugae Rhizoma,SymMap2.0/中国药典
+柴胡,发散风热药,微寒,辛|苦,肝|胆|肺,,3.0,10.0,,Chaihu,Radix Bupleuri,SymMap2.0/中国药典
+桑叶,发散风热药,寒,甘|苦,肺|肝,,5.0,10.0,,Sangye,Mori Folium,SymMap2.0/中国药典
+淡豆豉,发散风热药,凉,苦|辛,肺|胃,,6.0,12.0,,Dandouchi,Semen Sojae Praeparata,SymMap2.0/中国药典
+牛蒡子,发散风热药,寒,辛|苦,肺|胃,,6.0,12.0,,Niubangzi,Fructus Arctii Lappae,SymMap2.0/中国药典
+菊花,发散风热药,微寒,甘|苦,肺|肝,,5.0,10.0,,Juhua,Chrysanthemi Flos,SymMap2.0/中国药典
+葛根,发散风热药,凉,甘|辛,脾|胃|肺,,10.0,15.0,,Gegen,Puerariae Lobatae Radix,SymMap2.0/中国药典
+薄荷,发散风热药,凉,辛,肺|肝,,3.0,6.0,,Bohe,Menthae Haplocalycis Herba,SymMap2.0/中国药典
+南蛇藤果,安神药,平,甘|微苦,,,,,,nshetengguo,,SymMap2.0/中国药典
+合欢皮,安神药,平,甘,心|肝|肺,,,,,Hehuanpi,Albiziae Cortex,SymMap2.0/中国药典
+合欢花,安神药,平,甘,心|肝,,,,,Hehuanhua,Albiziae Flos,SymMap2.0/中国药典
+小麦,安神药,凉,甘,心|脾|肾,,30.0,60.0,,XiaoMai,Tritici Fructus,中药学/中国药典
+朱砂,安神药,微寒,甘,心,有毒,0.1,0.5,禁用,Zhusha,Cinnabaris,SymMap2.0/中国药典
+柏子仁,安神药,平,甘,心|肾|大肠,,3.0,10.0,,Baiziren,Platycladi Semen,SymMap2.0/中国药典
+琥珀,安神药,平,甘,心|肝|膀胱,,1.5,3.0,,HuPo,Succinum,中药学/中国药典
+生铁落,安神药,凉,辛,心|肝,,30.0,60.0,,ShengTieLuo,Ferri Frusta,中药学/中国药典
+磁石,安神药,寒,咸,肝|心|肾,,,,,Cishi,Magnetitum,SymMap2.0/中国药典
+远志,安神药,温,苦|辛,心|肾|肺,,3.0,10.0,,Yuanzhi,Polygalae Raedix,SymMap2.0/中国药典
+酸枣仁,安神药,平,甘|酸,肝|胆|心,,10.0,15.0,,Suanzaoren,Ziziphi Spinosae Semen,SymMap2.0/中国药典
+首乌藤,安神药,平,甘,心|肝,,9.0,15.0,,Shouwuteng,Polygoni Multiflori Caulis,SymMap2.0/中国药典
+龙骨,安神药,平,甘|涩,心|肝|肾,,15.0,30.0,,LongGu,Fossilia Ossis Mastodi,中药学/中国药典
+地龙,平肝息风药,寒,咸,肝|脾|膀胱,,5.0,10.0,,Dilong,Pheretima,SymMap2.0/中国药典
+天麻,平肝息风药,平,甘,肝,,3.0,10.0,,Tianma,Gastrodiae Rhizoma,SymMap2.0/中国药典
+石决明,平肝息风药,寒,咸,肝,,6.0,20.0,,Shijueming,Haliotidis Concha,SymMap2.0/中国药典
+钩藤,平肝息风药,凉,甘,肝|心包,,3.0,12.0,,Gouteng,Ramulus Uncariae Cum Uncis,SymMap2.0/中国药典
+人工牛黄,平肝熄风药,凉,甘,心|肝,,,,,Rengong Niuhuang,Bovis Calculus Artifactus,SymMap2.0/中国药典
+体外培育牛黄,平肝熄风药,平,甘,心|肝,,,,,Tiwai Peiyu Niuhuang,Bovis Calculus Sativus,SymMap2.0/中国药典
+僵蚕,平肝熄风药,平,咸|辛,肝|肺|胃,,,,,Jiangcan,Bombyx Batryticatus,SymMap2.0/中国药典
+全蝎,平肝熄风药,平,辛,肝,有毒,3.0,6.0,慎用,Quanxie,Scorpio,SymMap2.0/中国药典
+牡蛎,平肝熄风药,微寒,咸,心|肝|肾,,,,,Muli,Ostreae Concha,SymMap2.0/中国药典
+珍珠,平肝熄风药,寒,甘|咸,心|肝,,0.1,0.3,,Zhenzhu,Margarita,SymMap2.0/中国药典
+珍珠母,平肝熄风药,寒,咸,肝|心,,,,,Zhenzhumu,Margaritifera Concha,SymMap2.0/中国药典
+罗布麻叶,平肝熄风药,凉,甘|苦,肝,,,,,Luobumaye,Apocyni Veneti Folium,SymMap2.0/中国药典
+羚羊角,平肝熄风药,寒,咸,肝|心,,,,,Lingyangpao,Saigae Tataricae Cornu,SymMap2.0/中国药典
+菥蓂,平肝熄风药,微寒,辛,肝|胃|大肠,,,,,ximing,Thlaspi Herba,SymMap2.0/中国药典
+蒺藜,平肝熄风药,微温,辛|苦,肝,小毒,,,,jili,Tribuli Fructus,SymMap2.0/中国药典
+蜈蚣,平肝熄风药,温,辛,肝,有毒,3.0,5.0,禁用,Wugong,Scolopendra,SymMap2.0/中国药典
+赭石,平肝熄风药,寒,苦,肝|心|肺|胃,,9.0,30.0,慎用,Zheshi,Haematitum,SymMap2.0/中国药典
+冰片,开窍药,微寒,辛|苦,肺|脾|心,,0.15,0.3,慎用,Bingpian,Borneolum Syntheticum,SymMap2.0/中国药典
+天然冰片（右旋龙脑）,开窍药,凉,辛|苦,心|脾|肺,,,,,Tianranbingpian,Borneolum,SymMap2.0/中国药典
+安息香,开窍药,平,辛|苦,心|脾,,,,,Anxixiang,Benzoinum,SymMap2.0/中国药典
+牛黄,开窍药,凉,甘,心|肝,,0.15,0.35,慎用,Niuhuang,Calculus Bovis,SymMap2.0/中国药典
+石菖蒲,开窍药,温,辛|苦,心|胃,,,,,Shichangpu,Rhizoma Acori Talarinowii,SymMap2.0/中国药典
+艾片（左旋龙脑）,开窍药,微寒,辛|苦,心|脾|肺,,,,,Aipian,L-Borneolum,SymMap2.0/中国药典
+苏合香,开窍药,温,辛,心|脾,,0.3,1.0,慎用,Suhexiang,Styrax,SymMap2.0/中国药典
+麝香,开窍药,温,辛,心|脾,,0.03,0.1,禁用,Shexiang,Moschus,SymMap2.0/中国药典
+云芝,拔毒化腐生肌药,平,甘,心|脾|肝|肾,,,,,Yunzhi,Polysaccharidum Versicolor,SymMap2.0/中国药典
+亚乎奴（锡生藤）,拔毒化腐生肌药,温,甘|苦,,,,,,Yahunu,Cissampelotis Herba,SymMap2.0/中国药典
+冬葵果,拔毒化腐生肌药,凉,甘|涩,,,3.0,9.0,慎用,Dongkuiguo,Fructus Malvae,SymMap2.0/中国药典
+升药,拔毒化腐生肌药,热,辛,肺|脾,大毒,,,禁用,ShengYao,Hydrargyri Oxydum Rubrum,中药学/中国药典
+密陀僧,拔毒化腐生肌药,平,咸|辛,肝,有毒,0.3,0.9,禁用,MiTuoSeng,Lithargyrum,中药学/中国药典
+布渣叶,拔毒化腐生肌药,凉,微酸,脾|胃,,,,,Buzhaye,Microctis Folium,SymMap2.0/中国药典
+木棉花,拔毒化腐生肌药,凉,甘|淡,大肠,,,,,Mumianhua,Gossampini Flos,SymMap2.0/中国药典
+木鳖子,拔毒化腐生肌药,凉,苦|微甘,肝|脾|胃,有毒,0.6,1.2,禁用,Mubiezi,Momordicae Semen,SymMap2.0/中国药典
+杜仲叶,拔毒化腐生肌药,温,微辛,肝|肾,,,,,Duzhongye,Eucommiae Folium,SymMap2.0/中国药典
+水银,拔毒化腐生肌药,寒,辛,心|肝|肾,大毒,,,禁用,ShuiYin,Hydrargyrum,中药学/中国药典
+炉甘石,拔毒化腐生肌药,平,甘,肝|脾,,,,,Luganshi,Calamina,SymMap2.0/中国药典
+砒霜,拔毒化腐生肌药,热,辛,肺|肝,大毒,0.002,0.004,禁用,PiShuang,Arsenicum,中药学/中国药典
+禹州漏芦,拔毒化腐生肌药,寒,苦,胃,,,,,Yuzhouloulu,Echinopsis Radix,SymMap2.0/中国药典
+红粉,拔毒化腐生肌药,热,辛,肺|脾,大毒,,,,Hongfen,Hydrargyri Oxydum Rubrum,SymMap2.0/中国药典
+菊苣,拔毒化腐生肌药,凉,微苦|咸,肝|胆|胃,,,,,Juju,"Cichorii Herba
+Cichorii Radix",SymMap2.0/中国药典
+蓖麻子,拔毒化腐生肌药,平,甘|辛,大肠|肺,有毒,,,,Bimazi,Semen Ricini,SymMap2.0/中国药典
+轻粉,拔毒化腐生肌药,寒,辛,大肠|小肠,有毒,0.1,0.2,禁用,Qingfen,Calomelas,SymMap2.0/中国药典
+辣椒,拔毒化腐生肌药,热,辛,心|脾,,,,,Lajiao,Fructus Capsici,SymMap2.0/中国药典
+铅丹,拔毒化腐生肌药,微寒,辛,心|脾|肝,有毒,0.3,0.6,禁用,QianDan,Minium,中药学/中国药典
+龙脷叶,拔毒化腐生肌药,平,甘|淡,肺|胃,,,,,Longliye,Sauropi Folium,SymMap2.0/中国药典
+仙鹤草,收敛止血药,平,苦|涩,心|肝,,6.0,12.0,,Xianhecao,Agrimoniae Herba,SymMap2.0/中国药典
+大叶紫珠,收敛止血药,平,辛|苦,肝|肺|胃,,,,,Dayezizhu,Callicarpae Macrophyllae Folium,SymMap2.0/中国药典
+松花粉,收敛止血药,温,甘,肝|脾,,,,,Songhuafen,Pini Pollen,SymMap2.0/中国药典
+白及,收敛止血药,微寒,苦|甘|涩,肺|肝|胃,,6.0,15.0,,Baiji,Bletillae Rhizoma,SymMap2.0/中国药典
+紫珠叶,收敛止血药,凉,苦|涩,肝|肺|胃,,,,,Zizhuye,Callicarpae Formosanae Folium,SymMap2.0/中国药典
+花生衣,收敛止血药,平,甘|微苦|涩,肺|胃|肝,,,,,Huashengyi,Testa Arachidis Hypogaeae,SymMap2.0/中国药典
+莲房,收敛止血药,温,苦|涩,肝,,5.0,10.0,,Lianfang,Receptaculum Nelumbinis,SymMap2.0/中国药典
+藕节,收敛止血药,平,甘|涩,肝|肺|胃,,9.0,15.0,,Oujie,Nelumbinis Rhizomatis Nodus,SymMap2.0/中国药典
+贯叶金丝桃,收敛止血药,寒,辛,肝,,,,,Guanyejinsitao,Hyperici Perforati Herba,SymMap2.0/中国药典
+鸡冠花,收敛止血药,凉,甘|涩,肝|大肠,,,,,Jiguanhua,Flos Celosiae Cristatae,SymMap2.0/中国药典
+乌梅,收涩药,平,酸|涩,肝|脾|肺|大肠,,,,,Wumei,Fructus Mume,SymMap2.0/中国药典
+五倍子,收涩药,寒,酸|涩,肺|大肠|肾,,,,,Wubeizi,Galla Chinensis,SymMap2.0/中国药典
+五味子,收涩药,温,酸|甘,肺|心|肾,,2.0,6.0,,Wuweizi,Schisandrae Chinensis Fructus,SymMap2.0/中国药典
+南五味子,收涩药,温,酸|甘,肺|心|肾,,,,,Nanwuweizi,"Schisandrae Sphenantherae 
+Fructus",SymMap2.0/中国药典
+山茱萸,收涩药,微温,酸|涩,肝|肾,,6.0,12.0,,Shanzhuyu,Fructus Corni,SymMap2.0/中国药典
+岩白菜,收涩药,平,苦|涩,肺|肝|脾,,,,,Yanbaicai,Bergeniae Rhizoma,SymMap2.0/中国药典
+广东紫珠,收涩药,凉,苦|涩,肝|肺|胃,,,,,Guangdongzizhu,Callicarpae Caulis Et Folium,SymMap2.0/中国药典
+桑螵蛸,收涩药,平,甘|咸,肝|肾,,,,,Sangpiaoxiao,Mantidis Ootheca,SymMap2.0/中国药典
+浮小麦,收涩药,凉,甘,心,,15.0,30.0,,FuXiaoMai,Tritici Fructus Levis,中药学/中国药典
+海螵蛸,收涩药,温,咸|涩,脾|肾,,,,,haipiaoxiao,Sepiae Endoconcha,SymMap2.0/中国药典
+石榴皮,收涩药,温,酸|涩,大肠,,3.0,9.0,,Shiliupi,Granati Pericarpium,SymMap2.0/中国药典
+禹余粮,收涩药,微寒,甘|涩,胃|大肠,,10.0,20.0,慎用,Yuyuliang,Limonitum,SymMap2.0/中国药典
+糯稻根,收涩药,平,甘,肺|肾,,15.0,30.0,,Nuodaogen,Radix Oryzae Glutinosae,SymMap2.0/中国药典
+罂粟壳,收涩药,平,酸|涩,肺|大肠|肾,有毒,3.0,6.0,禁用,Yingsuqiao,Pericarpium Papaveris,SymMap2.0/中国药典
+肉豆蔻,收涩药,温,辛,脾|胃|大肠,,3.0,9.0,,Roudoukou,Semen Myristicae,SymMap2.0/中国药典
+芡实,收涩药,平,甘|涩,脾|肾,,,,,Qianshi,Semen Euryales,SymMap2.0/中国药典
+莲子,收涩药,平,甘|涩,脾|肾|心,,6.0,15.0,,Lianzi,Nelumbinis Semen,SymMap2.0/中国药典
+莲子心,收涩药,寒,苦,心|肾,,2.0,5.0,,Lianzixin,Plumula Nelumbinis,SymMap2.0/中国药典
+莲须,收涩药,平,甘|涩,心|肾,,3.0,5.0,,Lianxu,Stamen Nelumbinis,SymMap2.0/中国药典
+覆盆子,收涩药,温,甘|酸,肝|肾|膀胱,,,,,Fupenzi,Rubi Fructus,SymMap2.0/中国药典
+诃子,收涩药,平,苦|酸|涩,肺|大肠,,,,,Hezi,Chebulae Fructus,SymMap2.0/中国药典
+赤石脂,收涩药,温,甘|酸|涩,大肠|胃,,10.0,20.0,慎用,Chishizhi,Halloysitum Rubrum,SymMap2.0/中国药典
+金樱子,收涩药,平,酸|甘|涩,肾|膀胱|大肠,,,,,Jinyingzi,Fructus Rosae Laevigatae,SymMap2.0/中国药典
+麻黄根,收涩药,平,甘|涩,心|肺,,,,,Mahuanggen,Ephedrae Radix Et Rhizoma,SymMap2.0/中国药典
+千金子霜,攻下药,温,辛,肝|肾|大肠,有毒,,,,Qianjinzishuang,Euphorbiae Semen Pulveratum,SymMap2.0/中国药典
+巴豆,攻下药,热,辛,胃|大肠,大毒,0.1,0.3,禁用,Badou,Crotonis Fructus,SymMap2.0/中国药典
+番泻叶,攻下药,寒,甘|苦,大肠,,,,慎用,Fanxieye,Sennae Folium,SymMap2.0/中国药典
+芦荟,攻下药,寒,苦,肝|胃|大肠,,,,慎用,Luhui,Aloe,SymMap2.0/中国药典
+玄明粉,"攻下药,泻下药",寒,咸|苦,胃|大肠,,,,,Xuanmingfen,Natrii Sulfas Exsiccatus,SymMap2.0/中国药典
+白矾,攻毒杀虫止痒药,寒,酸|涩,肺|脾|肝|大肠,,0.6,1.5,,Baifan,Alumen,SymMap2.0/中国药典
+蜂房,攻毒杀虫止痒药,平,甘,胃,,3.0,5.0,,Fengfang,Vespae Nidus,SymMap2.0/中国药典
+蟾酥,攻毒杀虫止痒药,温,辛,心,有毒,0.015,0.03,禁用,Chansu,Bufonis Venenum,SymMap2.0/中国药典
+雄黄,攻毒杀虫止痒药,温,辛,肝|大肠,有毒,0.05,0.1,禁用,Xionghuang,Realgar,SymMap2.0/中国药典
+樟脑,攻毒杀虫药,热,辛,心|脾,有毒,0.1,0.2,禁用,ZhangNao,Camphora,中药学/中国药典
+硼砂,攻毒杀虫药,凉,甘|咸,肺|胃,,1.5,3.0,,PengSha,Borax,中药学/中国药典
+千日红,止咳平喘药,平,甘|微咸,,,,,,Qianrihong,Flos Gomphree,SymMap2.0/中国药典
+华山参,止咳平喘药,温,甘|微苦,肺|心,有毒,0.1,0.2,,Huashanshen,Physochlainae Radix,SymMap2.0/中国药典
+天仙子,止咳平喘药,温,苦|辛,心|胃|肝,大毒,,,,Tianxianzi,Hyoscyami Semen,SymMap2.0/中国药典
+枇杷叶,止咳平喘药,微寒,苦,肺|胃,,,,,Pipaye,Eriobotryae Folium,SymMap2.0/中国药典
+桑白皮,止咳平喘药,寒,甘,肺,,,,,Sangbaipi,Mori Cortex,SymMap2.0/中国药典
+款冬花,止咳平喘药,温,辛|微苦,肺,,,,,Kuandonghua,Farfarae Flos,SymMap2.0/中国药典
+洋金花,止咳平喘药,温,辛,肺|肝,有毒,0.2,0.6,,Yangjinhua,Flos Daturae,SymMap2.0/中国药典
+满山红,止咳平喘药,寒,辛|苦,肺|脾,,,,,Manshanhong,Folium Rhododendri Daurici,SymMap2.0/中国药典
+牛大力,止咳平喘药,平,甘|苦,,,,,,Niudali,,SymMap2.0/中国药典
+牡荆子,止咳平喘药,温,苦|辛,肺|大肠,,,,,Mujingzi,,SymMap2.0/中国药典
+白屈菜,止咳平喘药,凉,苦,肺|胃,有毒,,,,Baiqucai,Chelidonii Herba,SymMap2.0/中国药典
+白果,止咳平喘药,平,甘|苦|涩,肺|肾,有毒,5.0,10.0,,Baiguo,Ginkgo Semen,SymMap2.0/中国药典
+百部,止咳平喘药,微温,甘|苦,肺,,,,,Baibu,Radix Stemoe,SymMap2.0/中国药典
+矮地茶,止咳平喘药,平,辛|微苦,肺|肝,,,,,Aidicha,Ardisiae Japonicae Herba,SymMap2.0/中国药典
+紫苏子,止咳平喘药,温,辛,肺,,3.0,10.0,,Zisuzi,Fructus Perillae,SymMap2.0/中国药典
+紫菀,止咳平喘药,温,辛|苦,肺,,,,,Ziwan,Asteris Radix Et Rhizoma,SymMap2.0/中国药典
+苦杏仁,止咳平喘药,微温,苦,肺|大肠,小毒,5.0,10.0,,Kuxingren,Armeniacae Semen Amarum,SymMap2.0/中国药典
+葶苈子,止咳平喘药,大寒,辛|苦,肺|膀胱,,,,,Tinglizi,Semen Lepiddi Seu Descurainiae;Semen Lepidii；Semen Descurainiae,SymMap2.0/中国药典
+通关藤,止咳平喘药,微寒,苦,肺,,,,,Tongguanteng,Marsdeniae Tenacissimae Caulis,SymMap2.0/中国药典
+银杏叶,止咳平喘药,平,甘|苦|涩,心|肺,,,,,Yinxingye,Ginkgo Folium,SymMap2.0/中国药典
+棕榈,止血药,平,苦|涩,肺|肝|大肠,,3.0,9.0,,Zonglü,Trachycarpi  Petiolus,SymMap2.0/中国药典
+炮姜,止血药,热,辛,脾|胃|肾,,,,,Paojiang,Zingiberis Rhizoma Praeparatum,SymMap2.0/中国药典
+花蕊石,止血药,平,酸|涩,肝,,10.0,15.0,慎用,Huaruishi,Ophicalcitum,SymMap2.0/中国药典
+血余炭,止血药,平,苦,肝|胃,,6.0,10.0,,Xueyutan,Crinis Carbonisatus,SymMap2.0/中国药典
+大黄,泻下药,寒,苦,脾|胃|大肠|肝|心包,,3.0,15.0,慎用,Dahuang,Radix Et Rhizoma Rhei,SymMap2.0/中国药典
+巴豆霜,泻下药,热,辛,胃|大肠,大毒,,,,Badoushuang,Crotonis Semen Pulveratum,SymMap2.0/中国药典
+红大戟,泻下药,寒,苦,肺|脾|肾,小毒,1.5,3.0,禁用,Hongdaji,Knoxiae Radix,SymMap2.0/中国药典
+芒硝,泻下药,寒,咸|苦,胃|大肠,,6.0,12.0,慎用,Mangxiao,Natrii Sulfas,SymMap2.0/中国药典
+五灵脂,活血化瘀药,温,苦|咸|甘,肝,,3.0,10.0,慎用,WuLingZhi,Trogopteri Faeces,中药学/中国药典
+川芎,活血化瘀药,温,辛,肝|胆|心包,,3.0,10.0,慎用,Chuanxiong,Chuanxiong Rhizoma,SymMap2.0/中国药典
+干漆,活血化瘀药,温,辛,肝|脾,有毒,,,,Gangi,Toxicodendri Resina,SymMap2.0/中国药典
+枫香脂,活血化瘀药,平,辛|微苦,肺|脾,,,,,Fengxiangzhi,Liquidambaris Resina,SymMap2.0/中国药典
+桃仁,活血化瘀药,平,苦|甘,心|肝|大肠,,5.0,10.0,慎用,Taoren,Persicae Semen,SymMap2.0/中国药典
+水蛭,活血化瘀药,热,辛,胃|大肠,大毒,1.5,3.0,禁用,Shuizhi,Hirudo,SymMap2.0/中国药典
+片姜黄,活血化瘀药,温,辛|苦,脾|肝,,,,,Pianjianghuang,Wenyujin Rhizoma Concisum,SymMap2.0/中国药典
+牛膝,活血化瘀药,平,苦|甘|酸,肝|肾,,5.0,12.0,慎用,Niuxi,Radix Achyranthis Bidentatae,SymMap2.0/中国药典
+益母草,活血化瘀药,微寒,苦|辛,肝|心包|膀胱,,9.0,30.0,慎用,Yimucao,Herba Leonuri,SymMap2.0/中国药典
+穿山甲,活血化瘀药,微寒,咸,肝|胃,,5.0,9.0,慎用,ChuanShanJia,Manis Squama,中药学/中国药典
+红花,活血化瘀药,温,辛,心|肝,,3.0,10.0,慎用,Honghua,Flos Carthami,SymMap2.0/中国药典
+自然铜,活血化瘀药,平,辛,肝,,,,,Zirantong,Pyritum,SymMap2.0/中国药典
+苏木,活血化瘀药,平,甘|咸,心|肝|脾,,,,,Sumu,Sappan Lignum,SymMap2.0/中国药典
+虻虫,活血化瘀药,微寒,苦,肝,小毒,1.0,1.5,禁用,MengChong,Tabanus,中药学/中国药典
+血竭,活血化瘀药,平,甘|咸,心|肝,,1.0,2.0,慎用,Xuejie,Draconis Sanguis,SymMap2.0/中国药典
+郁金,活血化瘀药,寒,辛|苦,肝|心|肺,,3.0,10.0,慎用,Yujin,Curcumae Radix,SymMap2.0/中国药典
+马钱子粉,活血化瘀药,温,苦,肝|脾,大毒,,,,Maqianzi Fen,Strychni Semen Pulveratum,SymMap2.0/中国药典
+土鳖虫（䗪虫）,活血疗伤药,寒,咸,肝,小毒,,,,Tubiechong,Eupolyphaga Steleophaga,SymMap2.0/中国药典
+三棱,活血祛瘀药,平,辛|苦,肝|脾,,5.0,10.0,禁用,Sanleng,Rhizoma Sparganii,SymMap2.0/中国药典
+丹参,活血祛瘀药,微寒,苦,心|肝,,,,慎用,Danshen,Radix Salviae Liguliobae,SymMap2.0/中国药典
+乳香,活血祛瘀药,温,辛|苦,心|肝|脾,,,,慎用,Ruxiang,Olibanum,SymMap2.0/中国药典
+仙桃草,活血祛瘀药,平,甘|微辛,肝|胃|肺,,,,,Xiantaocao,,SymMap2.0/中国药典
+倒扣草,活血祛瘀药,微寒,苦|酸,肝|肺|膀胱,,,,,Daokoucao,,SymMap2.0/中国药典
+儿茶,活血祛瘀药,微寒,苦|涩,肺|心,,,,,Ercha,Catechu,SymMap2.0/中国药典
+凌霄花,活血祛瘀药,寒,甘|酸,肝|心包,,,,,Lingxiaohua,Flos Campsis,SymMap2.0/中国药典
+北刘寄奴,活血祛瘀药,寒,苦,脾|胃|肝|胆,,,,,Beiliujinu,Siphonostegiae Herba,SymMap2.0/中国药典
+姜黄,活血祛瘀药,温,辛|苦,脾|肝,,,,,Jianghuang,Rhizoma Curcumae Longae,SymMap2.0/中国药典
+小叶莲,活血祛瘀药,平,甘,,小毒,,,,Xiaoyelian,Sinopodophylli Fructus,SymMap2.0/中国药典
+小驳骨,活血祛瘀药,温,辛,肝|肾,,,,,Xiaobogu,Gendarussae Herba,SymMap2.0/中国药典
+山楂叶,活血祛瘀药,平,酸,肝,,,,,Shanzha,Crataegi Folium,SymMap2.0/中国药典
+川牛膝,活血祛瘀药,平,甘|微苦,肝|肾,,,,,Chuanniuxi,Cyathulae Radix,SymMap2.0/中国药典
+广枣,活血祛瘀药,平,甘|酸,脾|肝,,,,,Guangzao,Choerospondiatis Fructus,SymMap2.0/中国药典
+急性子,活血祛瘀药,温,微苦|辛,肺|肝,小毒,,,,Jixingzi,Impatientis Semen,SymMap2.0/中国药典
+斑蝥,活血祛瘀药,热,辛,肝|胃|肾,大毒,0.03,0.06,禁用,Banmao,Mylabris,SymMap2.0/中国药典
+月季花,活血祛瘀药,温,甘,肝,,,,,Yuejihua,Flos Rosae Chinensis,SymMap2.0/中国药典
+桃枝,活血祛瘀药,平,苦,心|肝,,,,,Taozhi,Persicae Ramulus,SymMap2.0/中国药典
+水红花子,活血祛瘀药,微寒,咸,肝|胃,,,,,Shuihonghuazi,Polygoni Orientalis Fructus,SymMap2.0/中国药典
+没药,活血祛瘀药,平,辛|苦,心|肝|脾,,,,慎用,Moyao,Resi Myrrhae;Myrrha,SymMap2.0/中国药典
+泽兰,活血祛瘀药,微温,苦|辛,肝|脾,,,,慎用,Zelan,Lycopi Herba,SymMap2.0/中国药典
+滇鸡血藤,活血祛瘀药,温,苦|甘,肝|肾,,,,,Dianjixueteng,Kadsurae Caulis,SymMap2.0/中国药典
+灯盏细辛（灯盏花）,活血祛瘀药,温,辛|微苦,心|肝,,,,,Dengzhanxixin,Erigerontis Herba,SymMap2.0/中国药典
+独一味,活血祛瘀药,平,甘|苦,肝,,,,,Duyiwei,Lamiophlomis Herba,SymMap2.0/中国药典
+王不留行,活血祛瘀药,平,苦,肝|胃,,,,慎用,Wangbuliuxing,Vaccariae Semen,SymMap2.0/中国药典
+石见穿,活血祛瘀药,微寒,辛|苦,,,,,,Shijianchuan,,SymMap2.0/中国药典
+茺蔚子,活血祛瘀药,微寒,辛|苦,心包|肝,,,,,Chongweizi,Leonuri Fructus,SymMap2.0/中国药典
+莪术,活血祛瘀药,温,辛|苦,肝|脾,,6.0,9.0,禁用,Ezhu,Curcumae Rhizoma,SymMap2.0/中国药典
+西红花,活血祛瘀药,平,甘,心|肝,,,,,Xihonghua,Croci Stigma,SymMap2.0/中国药典
+马鞭草,活血祛瘀药,凉,苦,肝|脾,,,,,Mabiancao,Herba Verbae,SymMap2.0/中国药典
+鬼箭羽,活血祛瘀药,寒,苦|辛,肝|脾,,,,,Guijianyu,Ramulus Euonymi,SymMap2.0/中国药典
+鸡血藤,活血祛瘀药,温,苦|甘,肝|肾,,,,,Jixueteng,Spatholobi Caulis,SymMap2.0/中国药典
+六神曲,消食药,温,甘|辛,脾|胃,,6.0,15.0,,LiuShenQu,Massa Medicata Fermentata,中药学/中国药典
+山楂,消食药,微温,酸|甘,脾|胃|肝,,9.0,12.0,,Shanzha,Crataegi Fructus,SymMap2.0/中国药典
+梧桐子,消食药,平,甘,脾|肺|肾,,,,,Wutongzi,,SymMap2.0/中国药典
+神曲,消食药,温,甘|辛,脾|胃,,6.0,15.0,,ShenQu,Massa Medicata Fermentata,中药学/中国药典
+稻芽,消食药,温,甘,脾|胃,,10.0,15.0,,Daoya,Oryzae Fructus Germinatus,SymMap2.0/中国药典
+莱菔子,消食药,平,辛|甘,肺|脾|胃,,5.0,12.0,,Laifuzi,Raphani Semen,SymMap2.0/中国药典
+谷芽,消食药,温,甘,脾|胃,,,,,Guya,Setariae Fructus Germinatus,SymMap2.0/中国药典
+阿魏,消食药,温,苦|辛,脾|胃,,,,,Awei,Ferulae Resina,SymMap2.0/中国药典
+鸡内金,消食药,平,甘,脾|胃|小肠|膀胱,,3.0,10.0,,Jineijin,Galli Gigerii Endothelium Corneum,SymMap2.0/中国药典
+鸡屎藤,消食药,平,甘|微苦,,,,,,Jishiteng,,SymMap2.0/中国药典
+麦芽,消食药,平,甘,脾|胃,,10.0,15.0,,Maiya,Hordei Fructus Germinatus,SymMap2.0/中国药典
+常山,涌吐药,寒,苦|辛,肺|肝|心,有毒,4.5,9.0,禁用,Changshan,Radix Dichroae,SymMap2.0/中国药典
+瓜蒂,涌吐药,寒,苦,胃,有毒,2.5,5.0,禁用,Guadi,Calycis Melo,SymMap2.0/中国药典
+藜芦,涌吐药,寒,辛|苦,肺|胃|肝,有毒,0.3,0.9,禁用,LiLu,Veratri Nigri Radix et Rhizoma,中药学/中国药典
+亚麻子,润下药,平,甘,肺|肝|大肠,,,,,Yamazi,Lini Semen,SymMap2.0/中国药典
+松子仁,润下药,温,甘,,,,,,Songziren,,SymMap2.0/中国药典
+火麻仁,润下药,平,甘,脾|胃|大肠,,,,,Huomaren,Cannabis Fructus,SymMap2.0/中国药典
+郁李仁,润下药,平,辛|苦|甘,脾|大肠|小肠,,,,,Yuliren,Semen Pruni,SymMap2.0/中国药典
+金龙胆草,清化热痰药,寒,苦,肺|肝,,,,,Jinlongdancao,Conyzae Herba,SymMap2.0/中国药典
+地黄,清热凉血药,寒,甘,心|肝|肾,,,,,Dihuang,Rehmanniae Radix,SymMap2.0/中国药典
+大青盐,清热凉血药,寒,咸,心|肾|膀胱,,,,,Daqingyan,Halitum,SymMap2.0/中国药典
+木芙蓉叶,清热凉血药,平,辛,肺|肝,,,,,Mufurongye,Hibisci Mutabilis Folium,SymMap2.0/中国药典
+牡丹皮,清热凉血药,微寒,苦|辛,心|肝|肾,,6.0,12.0,慎用,Mudanpi,Cortex Moutan,SymMap2.0/中国药典
+犀角,清热凉血药,寒,苦|咸,心|肝|胃,,1.5,6.0,慎用,XiJiao,Cornu Rhinocerotis,中药学/中国药典
+玄参,清热凉血药,微寒,甘|苦|咸,肺|胃|肾,,9.0,15.0,,Xuanshen,Radix Scrophulariae,SymMap2.0/中国药典
+瓦松,清热凉血药,凉,酸|苦,肝|肺|脾,,,,,Wasong,Orostachyis Fimbriatae Herba,SymMap2.0/中国药典
+生地黄,清热凉血药,寒,甘,心|肝|肾,,10.0,15.0,,ShengDiHuang,Rehmanniae Radix,中药学/中国药典
+紫草,清热凉血药,寒,甘|咸,心|肝,,,,,Zicao,Radix Arnebiae Seu Lithospermi,SymMap2.0/中国药典
+赤芍,清热凉血药,微寒,苦,肝,,6.0,12.0,慎用,Chishao,Radix Paeoniae Rubra,SymMap2.0/中国药典
+决明子,清热泻火药,微寒,甘|苦|咸,肝|大肠,,,,,Juemingzi,Semen Cassiae;Semen Sene,SymMap2.0/中国药典
+夏枯草,清热泻火药,寒,辛|苦,肝|胆,,,,,Xiakucao,Prunellae Spica,SymMap2.0/中国药典
+天花粉,清热泻火药,微寒,甘|微苦,肺|胃,,10.0,15.0,慎用,Tianhuafen,Trichosanthis Radix,SymMap2.0/中国药典
+密蒙花,清热泻火药,微寒,甘,肝,,,,,Mimenghua,Buddlejae Flos,SymMap2.0/中国药典
+寒水石,清热泻火药,寒,辛|咸,心|胃|肾,,10.0,15.0,,HanShuiShi,Calcitum,中药学/中国药典
+栀子,清热泻火药,寒,苦,心|肺|三焦,,6.0,10.0,,Zhizi,Fructus Gardeniae,SymMap2.0/中国药典
+淡竹叶,清热泻火药,寒,甘|淡,心|胃|小肠,,6.0,10.0,,Danzhuye,Lophatheri Herba,SymMap2.0/中国药典
+煅石膏,清热泻火药,寒,甘|辛|涩,肺|胃,,,,,Duanshigao,Gypsum Ustum,SymMap2.0/中国药典
+知母,清热泻火药,寒,苦|甘,肺|胃|肾,,6.0,12.0,,Zhimu,Rhizoma Anemarrhee,SymMap2.0/中国药典
+石膏,清热泻火药,大寒,甘|辛,肺|胃,,15.0,60.0,,Shigao,Gypsum Fibrosum,SymMap2.0/中国药典
+竹叶,清热泻火药,寒,甘|辛|淡,心|胃|小肠,,6.0,10.0,,ZhuYe,Bambusae Folium,中药学/中国药典
+芦根,清热泻火药,寒,甘,肺|胃,,15.0,30.0,,Lugen,Rhizoma Phragmitis,SymMap2.0/中国药典
+苦丁茶,清热泻火药,寒,甘|苦,肝|肺|胃,,,,,Kudingcha,,SymMap2.0/中国药典
+西瓜霜,清热泻火药,寒,咸,肺|胃|大肠,,,,,Xiguashuang,Mirabilitum Praeparatum,SymMap2.0/中国药典
+谷精草,清热泻火药,平,辛|甘,肝|肺,,,,,Gujingcao,Flos Eriocauli,SymMap2.0/中国药典
+青葙子,清热泻火药,平,甘,肝,,,,,Qingxiangzi,Celosiae Semen,SymMap2.0/中国药典
+鸭跖草,清热泻火药,寒,甘|淡,肺|胃|小肠,,,,,Yazhicao,Herba Commelie,SymMap2.0/中国药典
+三颗针,清热燥湿药,寒,苦,肝|胃|大肠,有毒,,,,Sankezhen,Berberidis Radix,SymMap2.0/中国药典
+关黄柏,清热燥湿药,寒,苦,肾|膀胱,,,,,Guanhuangbo,Phellodendri Amurensis Cortex,SymMap2.0/中国药典
+当药,清热燥湿药,寒,苦,肝|胃|大肠,,,,,Dangyao,Swertiae Herba,SymMap2.0/中国药典
+椿皮,清热燥湿药,寒,苦|涩,大肠|胃|肝,,,,,Chunpi,Cortex Tooe Sinensis,SymMap2.0/中国药典
+白鲜皮,清热燥湿药,寒,苦,脾|胃|膀胱,,,,,Baixianpi,Dictamni Cortex,SymMap2.0/中国药典
+秦皮,清热燥湿药,寒,苦|涩,肝|胆|大肠,,,,,Qinpi,Cortex Fraxini,SymMap2.0/中国药典
+红花龙胆,清热燥湿药,寒,苦,肝|胆,,,,,Honghualongdan,Gentianae Rhodanthae Herba,SymMap2.0/中国药典
+苦参,清热燥湿药,寒,苦,心|肝|胃|大肠|膀胱,,,,,Kushen,Radix Sophorae Flavescentis,SymMap2.0/中国药典
+马尾莲,清热燥湿药,寒,苦,心|肝|大肠,,,,,Maweilian,Radix Et Rhizoma Thalictri,SymMap2.0/中国药典
+黄柏,清热燥湿药,寒,苦,肾|膀胱,,3.0,12.0,,Huangbo,Phellodendri Chinensis Cortex,SymMap2.0/中国药典
+黄芩,清热燥湿药,寒,苦,肺|胆|脾|大肠|小肠,,3.0,10.0,,Huangqin,Scutellariae Radix,SymMap2.0/中国药典
+黄蜀葵花,清热燥湿药,寒,甘,肾|膀胱,,,,,Huangshukuihua,Abelmoschi Corolla,SymMap2.0/中国药典
+黄连,清热燥湿药,寒,苦,心|脾|胃|肝|胆|大肠,,2.0,5.0,,Huanglian,Rhizoma Coptidis,SymMap2.0/中国药典
+龙胆,清热燥湿药,寒,苦,肝|胆,,,,,Longdan,Gentianae Radix Et Rhizoma,SymMap2.0/中国药典
+西瓜翠衣,清热祛暑药,凉,甘,心|胃|膀胱,,15.0,30.0,,XiGuaCuiYi,Citrulli Exocarpium,中药学/中国药典
+忍冬藤,清热药,寒,甘,肺|胃,,,,,Rendongteng,Lonicerae Japonicae Caulis,SymMap2.0/中国药典
+水牛角,清热药,寒,苦,心|肝,,15.0,30.0,,Shuiniujiao,Bubali Cornu,SymMap2.0/中国药典
+焦栀子,清热药,寒,苦,心|肺|三焦,,,,,Jiaozhizi,Gardeniae Fructus Praeparatus,SymMap2.0/中国药典
+绵马贯众炭,清热药,微寒,苦|涩,肝|胃,小毒,,,,Mianmaguanzhongtan,Dryopteridis Crassirhizomatis Rhizoma Carbonisatum,SymMap2.0/中国药典
+苦木,清热药,寒,苦,肺|大肠,小毒,,,,Kumu,Picrasmae Ramulus Et Folium,SymMap2.0/中国药典
+蒲公英,清热药,寒,苦|甘,肝|胃,,,,,Pugongying,Taraxaci Herba,SymMap2.0/中国药典
+西青果,清热药,平,苦|酸|涩,肺|大肠,,,,,Xiqingguo,Chebulae Fructus Immaturus,SymMap2.0/中国药典
+重楼,清热药,微寒,苦,肝,小毒,3.0,9.0,,Chonglou,Paridis Rhizoma,SymMap2.0/中国药典
+三七花,清热解毒药,凉,甘|微苦,,,,,,Sanqihua,,SymMap2.0/中国药典
+乌敛莓,清热解毒药,寒,苦|酸,心|肝|胃,,,,,Wulianmei,,SymMap2.0/中国药典
+了哥王根,清热解毒药,寒,苦|辛,,有毒,,,,Liaogewanggen,,SymMap2.0/中国药典
+余甘子,清热解毒药,凉,甘|酸|涩,肺|胃,,,,,Yuganzi,Phyllanthi Fructus,SymMap2.0/中国药典
+八角莲,清热解毒药,温,苦|辛,肺|肝,有毒,,,,Bajiaolian,,SymMap2.0/中国药典
+冬凌草,清热解毒药,微寒,苦|甘,肺|胃|肝,,,,,Donglingcao,Rabdosiae Rubescentis Herba,SymMap2.0/中国药典
+凤尾草,清热解毒药,微温,甘|微苦,大肠|胃|肝|肾,,,,,Fengweicao,Herba Pteridis Multifidae,SymMap2.0/中国药典
+凤眼草,清热解毒药,凉,苦|涩,,,,,,Fengyancao,,SymMap2.0/中国药典
+功劳木,清热解毒药,寒,苦,肝|胃|大肠,,,,,Gonglaomu,Mahoniae Caulis,SymMap2.0/中国药典
+北豆根,清热解毒药,寒,苦,肺|胃|大肠,小毒,3.0,10.0,,Beidougen,Rhizoma Menispermi,SymMap2.0/中国药典
+十大功劳叶,清热解毒药,寒,苦,肺|肝|肾,,,,,Shidagonglaoye,Folium Mahoe,SymMap2.0/中国药典
+十大功劳根,清热解毒药,寒,苦,,,,,,Shidagonglaogen,,SymMap2.0/中国药典
+千里光,清热解毒药,寒,苦,肺|肝,,9.0,15.0,,Qianliguang,Senecionis Scandentis Hebra,SymMap2.0/中国药典
+半枝莲,清热解毒药,寒,辛|苦,肺|肝|肾,,,,,Banzhilian,Herba Scutellariae Barbatae,SymMap2.0/中国药典
+半边莲,清热解毒药,平,辛,心|小肠|肺,,10.0,15.0,,Banbianlian,Lobeliae Chinensis Herba,SymMap2.0/中国药典
+南板蓝根,清热解毒药,寒,苦,心|胃,,,,,Nanbanlangen,"Baphicacanthis Cusiae Rhizoma
+ Et Radix",SymMap2.0/中国药典
+四季青,清热解毒药,凉,苦|涩,肺|大肠|膀胱,,15.0,30.0,,Sijiqing,Folium Llicis Chinensis,SymMap2.0/中国药典
+土茯苓,清热解毒药,平,甘|淡,肝|胃,,15.0,60.0,,Tufuling,Rhizoma Smilacis Glabrae,SymMap2.0/中国药典
+地锦草,清热解毒药,平,辛,肝|大肠,,,,,Dijincao,Euphorbiae Humifusae Herba,SymMap2.0/中国药典
+垂盆草,清热解毒药,凉,甘|淡,肝|胆|小肠,,15.0,30.0,,Chuipencao,Sedi Herba,SymMap2.0/中国药典
+墓头回,清热解毒药,凉,苦|微酸|微涩,心|肝,,,,,Mutouhui,,SymMap2.0/中国药典
+大血藤,清热解毒药,平,苦,大肠|肝,,9.0,15.0,,Daxueteng,Caulis Sargentodoxae,SymMap2.0/中国药典
+大青叶,清热解毒药,寒,苦,心|胃,,,,,Daqingye,Folium Isatidis,SymMap2.0/中国药典
+天葵子,清热解毒药,寒,甘|苦,肝|胃,,,,,Tiankuizi,Radix Semiaquilegiae,SymMap2.0/中国药典
+委陵菜,清热解毒药,寒,苦,肝|大肠,,,,,Weilingcai,Herba Potentillae Chinensis,SymMap2.0/中国药典
+射干,清热解毒药,寒,苦,肺,,3.0,9.0,,Shegan,Belamcandae Rhizoma,SymMap2.0/中国药典
+山慈菇,清热解毒药,凉,甘|微辛,肝|脾,,3.0,9.0,,Shancigu,"Cremastrae Pseudobulbus
+Pleiones Pseudobulbus",SymMap2.0/中国药典
+山豆根,清热解毒药,寒,苦,肺|胃,有毒,3.0,6.0,,Shandougen,Radix Sophorae Tonkinensis,SymMap2.0/中国药典
+山银花,清热解毒药,寒,甘,肺|心|胃,,,,,Shanyinhua,Lonicerae Flos,SymMap2.0/中国药典
+山香圆叶,清热解毒药,寒,苦,肺|肝,,,,,Shanxiangyuanye,Turpiniae Folium,SymMap2.0/中国药典
+川射干,清热解毒药,寒,苦,肺,,,,,Chuanshegan,Iridis Tectori Rhizoma,SymMap2.0/中国药典
+川槿皮,清热解毒药,微寒,甘|苦,大肠|肝|脾,,,,,Chuanjinpi,,SymMap2.0/中国药典
+拳参,清热解毒药,微寒,苦|涩,肺|肝|大肠,,4.5,9.0,,Quanshen,Bistortae Rhizoma,SymMap2.0/中国药典
+救必应,清热解毒药,寒,苦,肺|胃|大肠|肝,,,,,Jiubiying,Ilicis Rotundae Cortex,SymMap2.0/中国药典
+木蝴蝶,清热解毒药,凉,苦|甘,肺|肝|胃,,1.5,3.0,,Muhudie,Semen Oroxyli,SymMap2.0/中国药典
+杠板归,清热解毒药,微寒,酸,肺|膀胱,,,,,Gangbanggui,Polygoni Perfoliati Herba,SymMap2.0/中国药典
+板蓝根,清热解毒药,寒,苦,心|胃,,,,,Banlangen,Isatidis Radix,SymMap2.0/中国药典
+毛诃子,清热解毒药,平,甘|涩,,,,,,Maohezi,Terminaliae Belliricae Fructus,SymMap2.0/中国药典
+水飞蓟,清热解毒药,凉,苦,肝|胆,,,,,Shuifeiji,Silybi Fructus,SymMap2.0/中国药典
+洪连,清热解毒药,寒,苦|甘,肺|心|肝,,,,,Honglion,Lagotidis Herba,SymMap2.0/中国药典
+漏芦,清热解毒药,寒,苦,胃,,5.0,9.0,,Loulu,Rhapontici Radix,SymMap2.0/中国药典
+猕猴桃根,清热解毒药,凉,微甘|涩,,小毒,,,,Mihoutaogen,,SymMap2.0/中国药典
+猪胆粉,清热解毒药,寒,苦,肝|胆|肺|大肠,,,,,Zhudanfen,Suis Fellis Pul Vis,SymMap2.0/中国药典
+猫爪草,清热解毒药,温,甘|辛,肝|肺,,,,,Maozhaocao,Radix Ranunculi Terti,SymMap2.0/中国药典
+白头翁,清热解毒药,寒,苦,胃|大肠,,,,,Baitouweng,Pulsatillae Radix,SymMap2.0/中国药典
+白毛藤,清热解毒药,寒,甘|苦,肝|胆|肾,小毒,,,,Baimaoteng,,SymMap2.0/中国药典
+白花蛇舌草,清热解毒药,寒,苦|甘,心|肺|肝|大肠,,15.0,60.0,,Baihuasheshecao,Herba Hedyotis Diffusae,SymMap2.0/中国药典
+白药子,清热解毒药,凉,苦|辛,肺|胃,小毒,,,,Baiyaozi,,SymMap2.0/中国药典
+白蔹,清热解毒药,微寒,苦,心|胃,,4.5,9.0,,Bailian,Radix Ampelopsis,SymMap2.0/中国药典
+相思子,清热解毒药,平,苦|辛,,大毒,,,,Xiangsizi,,SymMap2.0/中国药典
+石上柏,清热解毒药,凉,甘|微苦|涩,,,,,,Shishangbai,,SymMap2.0/中国药典
+积雪草,清热解毒药,寒,苦|辛,肝|脾|肾,,,,,Jixuecao,Herba Centellae,SymMap2.0/中国药典
+穿心莲,清热解毒药,寒,苦,心|肺|大肠|膀胱,,6.0,9.0,,Chuanxinlian,Andrographis Herba,SymMap2.0/中国药典
+竹沥,清热解毒药,寒,甘|苦,心|肝|肺,,30.0,50.0,,Zhuli,Succus Bambusae,SymMap2.0/中国药典
+筋骨草,清热解毒药,寒,苦,肺,,,,,Jingucao,Ajugae Herba,SymMap2.0/中国药典
+紫花地丁,清热解毒药,寒,辛|苦,肝|心,,15.0,30.0,,Zihuadiding,Violae Herba,SymMap2.0/中国药典
+紫萁贯众,清热解毒药,微寒,苦,肺|胃|肝,小毒,,,,Ziqiguanzhong,Osmundae Rhizoma,SymMap2.0/中国药典
+绵马贯众,清热解毒药,微寒,苦,肝|胃,小毒,,,,Mianmaguanzhong,Rhizoma Dryopteris Crassirhizomae,SymMap2.0/中国药典
+绿豆,清热解毒药,寒,甘,心|肝|胃,,15.0,30.0,,Lvdou,Semen Phaseoli Radiati,SymMap2.0/中国药典
+翻白草,清热解毒药,平,甘|微苦,肝|胃|大肠,,,,,Fanbaicao,Herba Potentillae Discoloris,SymMap2.0/中国药典
+肿节风,清热解毒药,平,苦|辛,心|肝,,,,,Zhongjiefeng,Sarcandrae Herba,SymMap2.0/中国药典
+臭灵丹草,清热解毒药,寒,辛|苦,肺,有毒,,,,Choulingdancao,Laggerae Herba,SymMap2.0/中国药典
+苦地丁,清热解毒药,寒,苦,心|肝|大肠,,,,,Kudiding,Corydalis Bungeanae Herba,SymMap2.0/中国药典
+苦玄参,清热解毒药,寒,苦,肺|胃|肝,,,,,Kuxuanshen,Picriae Herba,SymMap2.0/中国药典
+草乌叶,清热解毒药,平,辛|涩,,小毒,,,,Caowuye,Aconiti Kusnezoffii Folium,SymMap2.0/中国药典
+荷叶,清热解毒药,平,苦,肝|脾|胃,,,,,Heye,Folium Nelumbinis,SymMap2.0/中国药典
+葎草,清热解毒药,寒,甘|苦,肺|肾,,,,,Lvcao,Herba Humuli Scandentis,SymMap2.0/中国药典
+蓼大青叶,清热解毒药,寒,苦,心|胃,,,,,Liaodaqingye,Polygoni Tinctorii Folium,SymMap2.0/中国药典
+虎耳草,清热解毒药,寒,苦|辛,肺|肝|心,小毒,,,,Huercao,Herba Saxifragae,SymMap2.0/中国药典
+败酱草,清热解毒药,凉,苦|辛,大肠|胃|肝,,6.0,15.0,,Baijiangcao,Herba Patriniae,SymMap2.0/中国药典
+连翘,清热解毒药,微寒,苦,肺|心|小肠,,6.0,15.0,,Lianqiao,Forsythiae Fructus,SymMap2.0/中国药典
+野菊花,清热解毒药,微寒,苦|辛,肝|心,,10.0,15.0,,Yejuhua,Chrysanthemi Indici Flos,SymMap2.0/中国药典
+金果榄,清热解毒药,寒,苦,肺|大肠,,3.0,9.0,,Jinguolan,Tinosporae Radix,SymMap2.0/中国药典
+金荞麦,清热解毒药,凉,微辛|涩,肺,,,,,Jinqiaomai,Rhizoma Fagopyri Cymosi,SymMap2.0/中国药典
+金莲花,清热解毒药,寒,苦,肺|胃,,,,,Jinlianhua,Flos Trollii Chinensis,SymMap2.0/中国药典
+金银花,清热解毒药,寒,甘,肺|心|胃,,6.0,15.0,,Jinyinhua,Lonicerae Japonicae Flos,SymMap2.0/中国药典
+锦灯笼,清热解毒药,寒,苦,肺,,,,,Jindenglong,Physalis Calyx Seu Fructus,SymMap2.0/中国药典
+青果,清热解毒药,平,甘|酸,肺|胃,,,,,Qingguo,Canarii Fructus,SymMap2.0/中国药典
+青黛,清热解毒药,寒,咸,肝,,,,,Qingdai,Indigo Naturalls,SymMap2.0/中国药典
+飞扬草,清热解毒药,凉,辛|酸,肺|膀胱|大肠,小毒,,,,Feiyangcao,Euphorbiae Hirtae Herba,SymMap2.0/中国药典
+马勃,清热解毒药,平,辛,肺,,1.5,6.0,,Mabo,Lasiosphaera Seu Calvatia,SymMap2.0/中国药典
+马齿苋,清热解毒药,寒,酸,肝|大肠,,9.0,15.0,,Machixian,Portulacae Herba,SymMap2.0/中国药典
+高山辣根菜,清热解毒药,寒,苦|辛,肺|肝,,,,,Gaoshanlagencai,Pegaeophyti Radixe Tr Hizoma,SymMap2.0/中国药典
+鬼针草,清热解毒药,微寒,苦,,,,,,Guizhencao,Herba Bidentis,SymMap2.0/中国药典
+鱼腥草,清热解毒药,微寒,辛,肺,,,,,Yuxingcao,Herba Houttuyniae,SymMap2.0/中国药典
+鸦胆子,清热解毒药,寒,苦,大肠|肝,小毒,0.5,2.0,,Yadanzi,Bruceae Fructus,SymMap2.0/中国药典
+黄藤,清热解毒药,寒,苦,心|肝,,,,,Huangteng,Fibraureae Caulis,SymMap2.0/中国药典
+龙葵,清热解毒药,寒,苦,,,,,,Longkui,,SymMap2.0/中国药典
+地骨皮,清虚热药,寒,甘,肺|肝|肾,,,,,Digupi,Cortex Lycii Radicis,SymMap2.0/中国药典
+枸骨叶,清虚热药,凉,苦,肝|肾,,,,,Gouguye,Ilicis Cornutae Folium,SymMap2.0/中国药典
+白薇,清虚热药,寒,苦|咸,胃|肝|肾,,4.5,9.0,,Baiwei,Cynanchi Atrati Radix Et Rhizoma,SymMap2.0/中国药典
+胡黄连,清虚热药,寒,苦,肝|胃|大肠,,1.5,9.0,,Huhuangl1an,Picrorhizae Rhizoma,SymMap2.0/中国药典
+银柴胡,清虚热药,微寒,甘,肝|胃,,3.0,9.0,,Yincha,Stellariae Radix,SymMap2.0/中国药典
+青蒿,清虚热药,寒,苦|辛,肝|胆,,,,,Qinghao,Artemisiae Annuae Herba,SymMap2.0/中国药典
+灶心土,温经止血药,温,辛,脾|胃,,15.0,30.0,,ZaoXinTu,Terra Flava Usta,中药学/中国药典
+艾叶,温经止血药,温,辛|苦,肝|脾|肾,小毒,3.0,10.0,,Aiye,Folium Artemisiae Argyi,SymMap2.0/中国药典
+丁香,温里药,温,辛,脾|胃|肺|肾,,1.0,3.0,,Dingxiang,Flos Caryophylli,SymMap2.0/中国药典
+八角茴香,温里药,温,辛,肝|肾|脾|胃,,,,,Bajiaohuixiang,Fructus Anisi Stellati,SymMap2.0/中国药典
+吴茱萸,温里药,热,辛|苦,肝|脾|胃|肾,小毒,2.0,5.0,,Wuzhuyu,Euodiae Fructus,SymMap2.0/中国药典
+小茴香,温里药,温,辛,肝|肾|脾|胃,,,,,Xiaohuixiang,Foeniculi Fructus,SymMap2.0/中国药典
+山柰,温里药,温,辛,胃,,,,,Shannai,Rhizoma Kaempferiae,SymMap2.0/中国药典
+干姜,温里药,热,辛,脾|胃|肾|心|肺,,3.0,10.0,慎用,Ganjiang,Zingiberis Rhizoma,SymMap2.0/中国药典
+母丁香,温里药,温,辛,脾|胃|肺|肾,,,,,Mudingxiang,Caryophylli Fructus,SymMap2.0/中国药典
+红豆蔻,温里药,温,辛,脾|肺,,,,,Hongdoukou,Galangae Fructus,SymMap2.0/中国药典
+肉桂,温里药,大热,辛|甘,肾|脾|心|肝,,1.0,5.0,慎用,Rougui,Cortex Cinmomi,SymMap2.0/中国药典
+胡椒,温里药,热,辛,胃|大肠,,,,,Hujiao,Fructus Piperis,SymMap2.0/中国药典
+花椒,温里药,温,辛,脾|胃|肾,,,,,Huajiao,Zanthoxyli Pericarpium,SymMap2.0/中国药典
+荜澄茄,温里药,温,辛,脾|胃|肾|膀胱,,,,,Bichengqie,Litseae Fructus,SymMap2.0/中国药典
+荜茇,温里药,热,辛,胃|大肠,,,,,Bibo,Piperis Longi Fructus,SymMap2.0/中国药典
+附子,温里药,大热,辛|甘,心|肾|脾,有毒,3.0,15.0,慎用,Fuzi,Aconiti Lateralis Radix Praeparata,SymMap2.0/中国药典
+高良姜,温里药,热,辛,脾|胃,,,,,Gaoliangjiang,Alpiniae Officinarum Rhizoma,SymMap2.0/中国药典
+乌药,理气药,温,辛,肺|脾|肾|膀胱,,,,,Wuyao,Linderae Radix,SymMap2.0/中国药典
+九里香,理气药,温,辛|微苦,肝|胃,小毒,,,,Jiulixiang,Murrayae Folium Et Cacumen,SymMap2.0/中国药典
+九香虫,理气药,温,咸,肝|脾|肾,,,,,Jiuxiangchong,Aspongopus,SymMap2.0/中国药典
+佛手,理气药,温,辛|苦|酸,肝|脾|胃|肺,,,,,Foshou,Fructus Citri Sarcodactylis,SymMap2.0/中国药典
+刀豆,理气药,温,甘,胃|肾,,,,,Daodou,Semen Cavaliae,SymMap2.0/中国药典
+化橘红,理气药,温,辛|苦,肺|脾,,,,,Huajuhong,Exocarpium Citri Grandis,SymMap2.0/中国药典
+土木香,理气药,温,辛|苦,肝|脾,,,,,Tumuxiang,Inulae Radix,SymMap2.0/中国药典
+大腹皮,理气药,微温,辛,脾|胃|大肠|小肠,,5.0,10.0,,Dafupi,Arecae Pericarpium,SymMap2.0/中国药典
+天仙藤,理气药,温,苦,肝|脾|肾,有毒,4.5,9.0,慎用,TianXianTeng,Aristolochiae Herba,中药学/中国药典
+娑罗子,理气药,温,甘,肝|胃,,,,,Suoluozi,Aesculi Semen,SymMap2.0/中国药典
+川木香,理气药,温,辛|苦,脾|胃|大肠|胆,,,,,Chuanmuxiang,Ⅴladimiriae Radix,SymMap2.0/中国药典
+川楝子,理气药,寒,苦,肝|小肠|膀胱,小毒,4.5,9.0,,Chuanlianzi,Toosendan Fructus,SymMap2.0/中国药典
+延胡索,理气药,温,辛|苦,脾|肝|心,,,,慎用,Yanhusuo,Rhizoma Corydalis,SymMap2.0/中国药典
+木香,理气药,温,辛|苦,脾|胃|大肠|三焦|胆,,3.0,6.0,,Muxiang,Radix Aucklandiae,SymMap2.0/中国药典
+枳壳,理气药,微寒,苦|辛|酸,脾|胃,,3.0,10.0,慎用,Zhiqiao,Fructus Aurantii,SymMap2.0/中国药典
+枳实,理气药,微寒,苦|辛|酸,脾|胃,,3.0,10.0,慎用,Zhishi,Fructus Aurantii Immaturus,SymMap2.0/中国药典
+柿蒂,理气药,平,苦|涩,胃,,,,,Shidi,Calyx Kaki,SymMap2.0/中国药典
+梅花,理气药,平,微酸,肝|胃|肺,,,,,Meihua,Flos Mume,SymMap2.0/中国药典
+橘叶,理气药,平,苦|辛,肝|胃,,,,,Juye,Folium Citri Tangerie,SymMap2.0/中国药典
+橘核,理气药,平,苦,肝|肾,,,,,Juhe,Semen Citri Reticulatae,SymMap2.0/中国药典
+橘红,理气药,温,辛|苦,肺|脾,,,,,Juhong,Citri Exocarpium Rubrum,SymMap2.0/中国药典
+橘络,理气药,平,甘|苦,肝|肺|脾,,,,,Juluo,,SymMap2.0/中国药典
+檀香,理气药,温,辛,脾|胃|心|肺,,,,,Tanxiang,Santali Albi Lignum,SymMap2.0/中国药典
+沉香,理气药,微温,辛|苦,脾|胃|肾,,,,,Chenxiang,Lignum Aquilariae Resitum,SymMap2.0/中国药典
+玫瑰花,理气药,温,甘|微苦,肝|脾,,,,,Meiguihua,Rosae Rugosae Flos,SymMap2.0/中国药典
+玳玳花,理气药,平,辛|甘|微苦,,,,,,Daidaihua,,SymMap2.0/中国药典
+甘松,理气药,温,辛|甘,脾|胃,,,,,Gansong,Nardostachyos Radix Et Rhizoma,SymMap2.0/中国药典
+荔枝核,理气药,温,甘|微苦,肝|肾,,,,,Lizhihe,Litchi Semen,SymMap2.0/中国药典
+薤白,理气药,温,辛|苦,心|肺|胃|大肠,,5.0,10.0,,Xiebai,Bulbus Allii Macrostemi,SymMap2.0/中国药典
+陈皮,理气药,温,苦|辛,肺|脾,,3.0,10.0,,Chenpi,Citri Reticulatae Pericarpium,SymMap2.0/中国药典
+降香,理气药,温,辛,肝|脾,,,,,Jiangxiang,Lignum Dalbergiae Odoriferae Rosewood,SymMap2.0/中国药典
+青木香,理气药,寒,辛|苦,肺|胃|肝,有毒,3.0,9.0,慎用,QingMuXiang,Aristolochiae Radix,中药学/中国药典
+青皮,理气药,温,苦|辛,肝|胆|胃,,3.0,10.0,,Qingpi,Citri Reticulatae Pericarpium Viride,SymMap2.0/中国药典
+预知子,理气药,寒,苦,肝|胆|胃|膀胱,,,,,Yuzhizi,Fructus Akebiae,SymMap2.0/中国药典
+香橼,理气药,温,辛|苦|酸,肝|脾|肺,,,,,Xiangyuan,Citri Fructus,SymMap2.0/中国药典
+香附,理气药,平,辛|微苦|微甘,肝|脾|三焦,,6.0,10.0,,Xiangfu,Rhizoma Cyperi,SymMap2.0/中国药典
+黄山药,理气药,平,苦|微辛,胃|心,,,,,Huangshanyao,Dioscorea Panthaicae Rhizoma,SymMap2.0/中国药典
+黑老虎,理气药,温,辛|微苦,,,,,,Heilaohu,,SymMap2.0/中国药典
+丁公藤,祛风湿散寒药,温,辛,肝|脾|胃,小毒,3.0,6.0,,Dinggongteng,Caulis Erycibes,SymMap2.0/中国药典
+三分三,祛风湿散寒药,温,苦|辛,,大毒,,,,Sanfensan,,SymMap2.0/中国药典
+两头尖,祛风湿散寒药,热,辛,脾,有毒,,,,Liangtoujian,Anemones Raddeanae Rhizoma,SymMap2.0/中国药典
+两面针,祛风湿散寒药,平,苦|辛,肝|胃,小毒,,,,Liangmianzhen,Zanthoxyli Radix,SymMap2.0/中国药典
+伸筋草,祛风湿散寒药,温,微苦|辛,肝|脾|肾,,,,,Shenjincao,Herba Lycopodii,SymMap2.0/中国药典
+凤仙透骨草,祛风湿散寒药,温,苦|辛,,小毒,,,,Fengxiantougucao,Herba Speranskiae Tuberculatae,SymMap2.0/中国药典
+地枫皮,祛风湿散寒药,温,微辛|涩,膀胱|肾,小毒,,,,Difengpi,Illicii Cortex,SymMap2.0/中国药典
+威灵仙,祛风湿散寒药,温,辛|咸,膀胱,,,,,Weilingxian,Radix Clematidis,SymMap2.0/中国药典
+寻骨风,祛风湿散寒药,平,辛|苦,肝,有毒,9.0,15.0,慎用,Xungufeng,,SymMap2.0/中国药典
+徐长卿,祛风湿散寒药,温,辛,肝|胃,,,,,Xuchangqing,"Cynanchi Paniculati Radix 
+Et Rhizoma",SymMap2.0/中国药典
+木瓜,祛风湿散寒药,温,酸,肝|脾,,,,,Mugua,Fructus Chaenomelis,SymMap2.0/中国药典
+油松节,祛风湿散寒药,温,苦|辛,肝|肾,,,,,Songjie,Lignum Pini Nodi,SymMap2.0/中国药典
+海风藤,祛风湿散寒药,微温,辛|苦,肝,,6.0,12.0,,Haifengteng,Piperis Kadsurae Caulis,SymMap2.0/中国药典
+白花菜子,祛风湿散寒药,平,苦|辛,,小毒,,,,Baihuacaizi,,SymMap2.0/中国药典
+老鹳草,祛风湿散寒药,平,辛|苦,肝|肾|脾,,,,,Laoguancao,Erodii Herba Geranii Herba,SymMap2.0/中国药典
+草乌,祛风湿散寒药,热,辛|苦,心|肝|肾|脾,大毒,1.5,3.0,禁用,Caowu,Radix Aconiti Kusnezoffii,SymMap2.0/中国药典
+菝葜,祛风湿散寒药,平,甘|微苦|涩,肝|肾,,,,,Baqia,Smilacis Chinae Rhizoma,SymMap2.0/中国药典
+蚕沙,祛风湿散寒药,温,甘|辛,肝|脾|胃,,,,,Cansha,,SymMap2.0/中国药典
+路路通,祛风湿散寒药,平,苦,肝|肾,,,,,Lulutong,Fructus Liquidambaris,SymMap2.0/中国药典
+野木瓜,祛风湿散寒药,平,微苦,肝|胃,,,,,Yemugua,Stauntoniae Caulis Et Folium,SymMap2.0/中国药典
+金铁锁,祛风湿散寒药,温,苦|辛,肝,小毒,,,,Jintiesuo,Psammosilenes Radix,SymMap2.0/中国药典
+铁线透骨草,祛风湿散寒药,温,辛|咸,,小毒,,,,Tiexiantougucao,,SymMap2.0/中国药典
+闹羊花,祛风湿散寒药,温,辛,肝,大毒,,,,Naoyanghua,Rhododendri Mollis Flos,SymMap2.0/中国药典
+雷公藤,祛风湿散寒药,凉,苦|辛,肝|心,大毒,10.0,25.0,,Leigongteng,Radix Tripterygii Wilfordii,SymMap2.0/中国药典
+青风藤,祛风湿散寒药,平,苦|辛,肝|脾,,6.0,12.0,,Qingfengteng,Sinomenii Caulis,SymMap2.0/中国药典
+香加皮,祛风湿散寒药,温,辛|苦,肝|肾|心,有毒,3.0,6.0,,Xiangjiapi,Periplocae Cortex,SymMap2.0/中国药典
+香茅,祛风湿散寒药,温,甘|辛,,,,,,Xiangmao,,SymMap2.0/中国药典
+马钱子,祛风湿散寒药,温,苦,肝|脾,大毒,0.3,0.6,禁用,Maqianzi,Strychni Semen,SymMap2.0/中国药典
+鹿衔草,祛风湿散寒药,温,甘|苦,肝|肾,,,,,Luxiancao,Herba Pyrolae Chinensis,SymMap2.0/中国药典
+夏天无,祛风湿清热药,温,苦|微辛,肝,,,,,Xiatianwu,Corydalis Decumbentis Rhizoma,SymMap2.0/中国药典
+桑枝,祛风湿清热药,平,微苦,肝,,,,,Sangzhi,Ramulus Mori,SymMap2.0/中国药典
+海桐皮,祛风湿清热药,平,苦|辛,肝|脾,,,,,Haitongpi,Cortex Erythrie,SymMap2.0/中国药典
+穿山龙,祛风湿清热药,温,甘|苦,肝|肾|肺,,,,,Chuanshanlong,Rhizoma Dioscoreae Nipponicae,SymMap2.0/中国药典
+络石藤,祛风湿清热药,微寒,苦,心|肝|肾,,,,,Luoshiteng,Caulis Trachelospermi,SymMap2.0/中国药典
+臭梧桐,祛风湿清热药,平,苦|微辛,,,,,,Chouwutong,Folium Clerodentri Trichotomi,SymMap2.0/中国药典
+茄根,祛风湿清热药,寒,甘|辛,脾|大肠|胃,,,,,Qiegeng,Radix Solani Melongee,SymMap2.0/中国药典
+豨莶草,祛风湿清热药,寒,辛|苦,肝|肾,,,,,Xixiancao,Siegesbeckiae Herba,SymMap2.0/中国药典
+防己,祛风湿清热药,寒,苦,膀胱|肺,,,,,Fangji,Stephaniae Tetrandrae Radix,SymMap2.0/中国药典
+千年健,祛风湿筋骨药,温,苦|辛,肝|肾,,,,,Qiannianjian,Homalomenae Rhizoma,SymMap2.0/中国药典
+千斤拔,祛风湿筋骨药,平,甘|辛|微涩,,,,,,Qianjinba,Radix Moghaniae Philippinensis,SymMap2.0/中国药典
+槲寄生,祛风湿筋骨药,平,苦,肝|肾,,,,,Hujisheng,Herba Visci,SymMap2.0/中国药典
+丝瓜络,祛风湿药,平,甘,肺|胃|肝,,5.0,10.0,,Sigualuo,Luffae Fructus Retinervus,SymMap2.0/中国药典
+乌梢蛇,祛风湿药,平,甘,肝,,,,,Wushaoshe,Zaocys,SymMap2.0/中国药典
+五加皮,祛风湿药,温,辛|苦,肝|肾,,,,,Wujiapi,Acanthopanacis Cortex,SymMap2.0/中国药典
+制川乌,祛风湿药,热,辛|苦,心|肝|肾|脾,有毒,,,,Zhichuanwu,Aconiti Radix Cocta,SymMap2.0/中国药典
+制草乌,祛风湿药,热,辛|苦,心|肝|肾|脾,有毒,,,,Zh1caowu,Aconiti Kusnezoffii Radix Cocta,SymMap2.0/中国药典
+川乌,祛风湿药,热,辛|苦,心|肝|肾|脾,大毒,1.5,3.0,禁用,Chuanwu,Aconiti Radix,SymMap2.0/中国药典
+广防己,祛风湿药,寒,苦|辛,膀胱|肾|脾,有毒,4.5,9.0,慎用,GuangFangJi,Aristolochiae Fangchi Radix,中药学/中国药典
+桑寄生,祛风湿药,平,苦|甘,肝|肾,,9.0,15.0,,Sangjisheng,Herba Taxilli,SymMap2.0/中国药典
+狗脊,祛风湿药,温,苦|甘,肝|肾,,,,,Gouji,Cibotii Rhizoma,SymMap2.0/中国药典
+独活,祛风湿药,微温,辛|苦,肾|膀胱,,3.0,10.0,,Duhuo,Radix Angelicae Pubescentis,SymMap2.0/中国药典
+秦艽,祛风湿药,平,辛|苦,胃|肝|胆,,3.0,10.0,,Qinjiao,Radix Gentiae Macrophyllae,SymMap2.0/中国药典
+蕲蛇,祛风湿药,温,甘|咸,肝,有毒,3.0,9.0,,Qishe,Agkistrodon,SymMap2.0/中国药典
+蛇蜕,祛风湿药,平,咸|甘,肝,,,,,Shetui,Serpentis Periostracum,SymMap2.0/中国药典
+透骨草,祛风湿药,温,甘|辛,肝|肾,,9.0,15.0,,TouGuCao,Speranskiae Tuberculatae Herba,中药学/中国药典
+金钱白花蛇,祛风湿药,温,甘|咸,肝,有毒,,,,Jinqianbaihuashe,Bungarus Parvus,SymMap2.0/中国药典
+人参,补气药,微温,甘|微苦,脾|肺|心|肾,,3.0,9.0,,Renshen,Ginseng Radix Et Rhizoma,SymMap2.0/中国药典
+人参叶,补气药,寒,苦|甘,肺|胃,,,,,Renshenye,Ginseng Folium,SymMap2.0/中国药典
+党参,补气药,平,甘,脾|肺,,9.0,30.0,,Dangshen,Codonopsis Radix,SymMap2.0/中国药典
+刺五加,补气药,温,辛|微苦,脾|肾|心,,,,,Ciwujia,Acanthopanacis Senticosi Radix Et Rhizoma Seu Caulis,SymMap2.0/中国药典
+大枣,补气药,温,甘,脾|胃|心,,6.0,15.0,,Dazao,Fructus Zizyphi Jujubae,SymMap2.0/中国药典
+太子参,补气药,平,甘|微苦,脾|肺,,,,,Taizishen,Radix Pseudostellariae,SymMap2.0/中国药典
+山药,补气药,平,甘,脾|肺|肾,,15.0,30.0,,Shanyao,Rhizoma Dioscoreae,SymMap2.0/中国药典
+明党参,补气药,微寒,甘|微苦,肺|脾|肝,,,,,Mingdangshen,Changii Radix,SymMap2.0/中国药典
+榼藤子,补气药,凉,微苦,肝|脾|胃|肾,小毒,,,,Ketengzi,Entadae Semen,SymMap2.0/中国药典
+灵芝,补气药,平,甘,心|肺|肝|肾,,,,,Lingzhi,Ganoderma Lucidum Seu Japonicum,SymMap2.0/中国药典
+炙红芪,补气药,温,甘,肺|脾,,,,,Zhihongqi,Hedysari Radix Praeparata Cum Melle,SymMap2.0/中国药典
+甘草,补气药,平,甘,心|肺|脾|胃,,2.0,10.0,,Gancao,Glycyrrhizae Radix Et Rhizoma,SymMap2.0/中国药典
+白扁豆,补气药,微温,甘,脾|胃,,9.0,15.0,,Baibiandou,Semen Lablab Album,SymMap2.0/中国药典
+白术,补气药,温,苦|甘,脾|胃,,6.0,12.0,,Baizhu,Atractylodis Macrocephalae Rhizoma,SymMap2.0/中国药典
+竹节参,补气药,温,甘|微苦,肝|脾|肺,,,,,Zhujieshen,Panacis Japonici Rhizoma,SymMap2.0/中国药典
+红参,补气药,温,甘|微苦,脾|肺|心|肾,,,,,Hongshen,Radix Ginseng Rubra,SymMap2.0/中国药典
+红芪,补气药,微温,甘,肺|脾,,,,,Hongqi,Hedysari Radix,SymMap2.0/中国药典
+绞股蓝,补气药,凉,苦|微甘,肺|脾|肾,,,,,Jiaoguolan,,SymMap2.0/中国药典
+蓝布正,补气药,凉,甘|微苦,肝|脾|肺,,,,,Lanbuzheng,Gei Herba,SymMap2.0/中国药典
+蜂胶,补气药,寒,苦|辛,脾|胃,,,,,Fengjiao,Propolis,SymMap2.0/中国药典
+蜂蜜,补气药,平,甘,肺|脾|大肠,,15.0,30.0,,Fengmi,Mel,SymMap2.0/中国药典
+西洋参,补气药,凉,甘|微苦,心|肺|肾,,,,,Xiyangshen,Panacis Quinquefolii Radix,SymMap2.0/中国药典
+饴糖,补气药,温,甘,脾|胃|肺,,30.0,60.0,,YiTang,Saccharum Granorum,中药学/中国药典
+黄芪,补气药,微温,甘,肺|脾,,9.0,30.0,,Huangqi,Astragali Radix,SymMap2.0/中国药典
+何首乌,补虚药,微温,苦|甘|涩,肝|心|肾,,,,,Heshouwu,Polygoni Multiflori Radix,SymMap2.0/中国药典
+制何首乌,补虚药,微温,苦|甘|涩,肝|心|肾,,,,,Zhiheshouwu,Polgoni Multiflori Radix Praeparata,SymMap2.0/中国药典
+海马,补虚药,温,甘|咸,肝|肾,,3.0,9.0,禁用,Haima,Hippocampus,SymMap2.0/中国药典
+炙甘草,补虚药,平,甘,心|肺|脾|胃,,,,,Zhigancao,"Glycyrrhizae Radix Et Rhizoma
+Praeparata Cum Melle",SymMap2.0/中国药典
+炙黄芪,补虚药,温,甘,肺|脾,,,,,Zhihuangqi,"Astragali Radix Praeparata
+Cum Melle",SymMap2.0/中国药典
+石斛,补虚药,微寒,甘,胃|肾,,,,,Shihu,Dendrobii Caulis,SymMap2.0/中国药典
+紫石英,补虚药,温,甘,肾|心|肺,,9.0,15.0,,Zishiying,Fluoritum,SymMap2.0/中国药典
+红景天,补虚药,平,甘|苦,肺|心,,,,,Hongjingtian,Rhodiolae Crenulatae Radix Et Rhizoma,SymMap2.0/中国药典
+蛤蚧,补虚药,平,咸,肺|肾,,5.0,10.0,,Gejie,Gecko,SymMap2.0/中国药典
+补骨脂,补虚药,温,辛|苦,肾|脾,,5.0,15.0,,Buguzhi,Psoraleae Fructus,SymMap2.0/中国药典
+钟乳石,补虚药,温,甘,肺|肾|胃,,,,,Zhongrushi,Stalactitum,SymMap2.0/中国药典
+锁阳,补虚药,温,甘,肝|肾|大肠,,,,,Suoyang,Cynomorii Herba,SymMap2.0/中国药典
+鳖甲,补虚药,微寒,咸,肝|肾,,,,,Biejia,Trionycis Carapax,SymMap2.0/中国药典
+鹿茸,补虚药,温,甘|咸,肾|肝,,1.0,2.0,,Lurong,Cervi Cornu Pantotrichum,SymMap2.0/中国药典
+鹿角,补虚药,温,咸,肾|肝,,,,,Lujiao,Cervi Cornu,SymMap2.0/中国药典
+鹿角胶,补虚药,温,甘|咸,肾|肝,,3.0,6.0,,Lujiaojiao,Cervi Cornus Colla,SymMap2.0/中国药典
+鹿角霜,补虚药,温,咸|涩,肝|肾,,9.0,15.0,,Lujiooshuong,Cervi Cornu Degelatinatum,SymMap2.0/中国药典
+龟甲,补虚药,微寒,咸|甘,肝|肾|心,,,,,Guijia,Testudinis Carapax Et Plastrum,SymMap2.0/中国药典
+龟甲胶,补虚药,凉,咸|甘,肝|肾|心,,3.0,9.0,,Guijiajiao,Testudinis Carapacis Et Plastri Colla,SymMap2.0/中国药典
+当归,补血药,温,甘|辛,肝|心|脾,,6.0,12.0,慎用,Danggui,Radix Angelicae Sinensis,SymMap2.0/中国药典
+熟地黄,补血药,微温,甘,肝|肾,,9.0,15.0,,Shudihuang,Rehmanniae Radix Praeparata,SymMap2.0/中国药典
+白芍,补血药,微寒,苦|酸,肝|脾,,6.0,15.0,,Baishao,Radix Paeoniae Alba,SymMap2.0/中国药典
+阿胶,补血药,平,甘,肺|肝|肾,,3.0,9.0,,Ejiao,Asini Corii Colla,SymMap2.0/中国药典
+龙眼肉,补血药,温,甘,心|脾,,9.0,15.0,,Longyanrou,Longan Arillus,SymMap2.0/中国药典
+仙茅,补阳药,热,辛,肾|肝|脾,有毒,5.0,15.0,,Xianmao,Curculiginis Rhizoma,SymMap2.0/中国药典
+冬虫夏草,补阳药,平,甘,肺|肾,,,,,Dongchongxiacao,Cordyceps,SymMap2.0/中国药典
+天山雪莲,补阳药,温,微苦,,,,,,Tianshanxuelian,Saussureae Involucratae Herba,SymMap2.0/中国药典
+巫山淫羊藿,补阳药,温,辛|甘,肝|肾,,,,,Wushan yingyanghuo,Epimedii Wushanensis Folium,SymMap2.0/中国药典
+巴戟天,补阳药,微温,甘|辛,肾|肝,,,,,Bajitian,Morindae Officinalis Radix,SymMap2.0/中国药典
+杜仲,补阳药,温,甘,肝|肾,,6.0,10.0,,Duzhong,Cortex Eucommiae,SymMap2.0/中国药典
+核桃仁,补阳药,温,甘,肾|肺|大肠,,,,,Hetaoren,Semen Juglandis,SymMap2.0/中国药典
+沙苑子,补阳药,温,甘,肝|肾,,,,,Shayuanzi,Astragali Complanati Semen,SymMap2.0/中国药典
+海龙,补阳药,温,甘|咸,肝|肾,,,,,Hailong,Syngnathus,SymMap2.0/中国药典
+淫羊藿,补阳药,温,辛|甘,肝|肾,,,,,Yinyanghuo,Epimedii Folium,SymMap2.0/中国药典
+益智,补阳药,温,辛,脾|肾,,3.0,10.0,,Yizhi,Alpiniae Oxyphyllae Fructus,SymMap2.0/中国药典
+紫河车,补阳药,温,甘|咸,肺|肝|肾,,2.0,3.0,,ZiHeChe,Placenta Hominis,中药学/中国药典
+续断,补阳药,微温,苦|辛,肝|肾,,,,,Xuduan,Dipsaci Radix,SymMap2.0/中国药典
+肉苁蓉,补阳药,温,甘|咸,肾|大肠,,,,,Roucongrong,Herba Cistanches,SymMap2.0/中国药典
+胡桃仁,补阳药,温,甘,肾|肺|大肠,,6.0,9.0,,HuTaoRen,Juglandis Semen,中药学/中国药典
+胡芦巴,补阳药,温,苦,肾,,,,,Huluba,Trigonellae Semen,SymMap2.0/中国药典
+草苁蓉,补阳药,温,甘|咸,,,,,,Caocongrong,,SymMap2.0/中国药典
+菟丝子,补阳药,平,辛|甘,肝|肾|脾,,,,,Tusizi,Cuscutae Semen,SymMap2.0/中国药典
+藏菖蒲,补阳药,温,苦|辛,,,,,,Zangchangpu,Acori Calami Rhizoma,SymMap2.0/中国药典
+韭菜子,补阳药,温,辛|甘,肝|肾,,,,,Jiucaizi,Allii Tuberosi Semen,SymMap2.0/中国药典
+骨碎补,补阳药,温,苦,肝|肾,,,,,Gusuibu,Drynariae Rhizoma,SymMap2.0/中国药典
+北沙参,补阴药,微寒,甘|微苦,肺|胃,,,,,Beishashen,Radix Glehniae,SymMap2.0/中国药典
+南沙参,补阴药,微寒,甘,肺|胃,,,,,Nanshashen,Radix Adenophorae,SymMap2.0/中国药典
+墨旱莲,补阴药,寒,甘|酸,肾|肝,,,,,Mohanlian,Ecliptae Herba,SymMap2.0/中国药典
+天冬,补阴药,寒,甘|苦,肺|肾,,,,,Tiandong,Asparagi Radix,SymMap2.0/中国药典
+女贞子,补阴药,凉,甘|苦,肝|肾,,,,,Nüzhenzi,Ligustri Lucidi Fructus,SymMap2.0/中国药典
+山麦冬,补阴药,微寒,甘|微苦,心|肺|胃,,,,,Shanmaidong,Liriopes Radix,SymMap2.0/中国药典
+枸杞子,补阴药,平,甘,肝|肾,,,,,Gouqizi,Lycii Fructus,SymMap2.0/中国药典
+桑椹,补阴药,寒,甘|酸,心|肝|肾,,,,,Sangshen,Mori Fructus,SymMap2.0/中国药典
+楮实子,补阴药,寒,甘,肝|肾,,,,,Chushizi,Broussonetiae Fructus,SymMap2.0/中国药典
+玉竹,补阴药,微寒,甘,肺|胃,,,,,Yuzhu,Polygonati Odorati Rhizoma,SymMap2.0/中国药典
+珠子参,补阴药,微寒,苦|甘,肝|肺|胃,,,,,Zhuzishen,Panacis Majoris Rhizoma,SymMap2.0/中国药典
+百合,补阴药,寒,甘,心|肺,,,,,Baihe,Bulbus Lilii,SymMap2.0/中国药典
+铁皮石斛,补阴药,微寒,甘,胃|肾,,,,,Tiepishihu,Dendrobii Officinalis Caulis,SymMap2.0/中国药典
+麦冬,补阴药,微寒,甘|微苦,心|肺|胃,,6.0,12.0,,Maidong,Ophiopogonis Radix,SymMap2.0/中国药典
+黄精,补阴药,平,甘,脾|肺|肾,,,,,Huangjing,Polygonati Rhizoma,SymMap2.0/中国药典
+黑芝麻,补阴药,平,甘,肝|肾|大肠,,9.0,15.0,,Heizhima,Sesami Semen Nigrum,SymMap2.0/中国药典
+黑豆,补阴药,平,甘,脾|肾,,9.0,30.0,,Heidou,Semen Glycine Max,SymMap2.0/中国药典
+土荆皮,解毒杀虫燥湿止痒药,温,辛,肺|脾,有毒,,,,Tujingpi,Pseudolaricis Cortex,SymMap2.0/中国药典
+大蒜,解毒杀虫燥湿止痒药,温,辛,脾|胃|肺,,5.0,10.0,,Dasuan,Allii Sativi Bulbus,SymMap2.0/中国药典
+大风子,解毒杀虫燥湿止痒药,热,辛,肝|脾,有毒,,,,Dafengzi,,SymMap2.0/中国药典
+朱砂根,解毒杀虫燥湿止痒药,平,微苦|辛,肺|肝,,,,,Zhushagen,Ardisiae Crenatae Radix,SymMap2.0/中国药典
+皂矾（绿矾）,解毒杀虫燥湿止痒药,凉,酸,肝|脾,,,,,Zaofan,Melanteritum,SymMap2.0/中国药典
+翼首草,解毒杀虫燥湿止痒药,寒,苦,,小毒,,,,Yishoucao,Pterocephali Herba,SymMap2.0/中国药典
+蓍草,解毒杀虫燥湿止痒药,平,苦|酸,肺|脾|膀胱,,,,,Shicao,Achilleae Herba,SymMap2.0/中国药典
+蛇床子,解毒杀虫燥湿止痒药,温,辛|苦,肾,小毒,3.0,9.0,,Shechuangzi,Cnidii Fructus,SymMap2.0/中国药典
+蜂蜡,解毒杀虫燥湿止痒药,微温,甘,脾,,,,,Fengla,Cera Flava,SymMap2.0/中国药典
+裸花紫珠,解毒杀虫燥湿止痒药,平,苦|微辛,,,,,,Luohuazizhu,Callicarpae Nudiflorae Folium,SymMap2.0/中国药典
+黑种草子,解毒杀虫燥湿止痒药,温,甘|辛,,,,,,Heizhongcaozi,Nigellae Semen,SymMap2.0/中国药典
+紫苏梗,解表药,温,辛,肺|脾,,5.0,10.0,,Zisugeng,Perillae Caulis,SymMap2.0/中国药典
+荆芥炭,解表药,微温,辛|涩,肺|肝,,,,,Jingjietan,Schizonepetae Herba Carbonisata,SymMap2.0/中国药典
+荆芥穗炭,解表药,微温,辛|涩,肺|肝,,,,,Jingjiesuitan,Schizonepetae Spica Carbonisata,SymMap2.0/中国药典
+一枝黄花,辛凉解表药,凉,辛|苦,肺|肝,,,,,Yizhihuanghua,Solidaginis Herba,SymMap2.0/中国药典
+大豆黄卷,辛凉解表药,平,甘,脾|胃|肺,,,,,Dadouhuangjuan,Sojae Semen Germinatum,SymMap2.0/中国药典
+木贼,辛凉解表药,平,甘|苦,肺|肝,,,,,Muzei,Herba Equiseti Hiemalis,SymMap2.0/中国药典
+浮萍,辛凉解表药,寒,辛,肺,,,,,Fuping,Spirodelae Herba,SymMap2.0/中国药典
+牡荆叶,辛凉解表药,平,微苦|辛,肺,,,,,Mujingye,Folium Viticis Negundo,SymMap2.0/中国药典
+粉葛,辛凉解表药,凉,甘|辛,脾|胃,,,,,Fenge,Puerariae Thomsonii Radix,SymMap2.0/中国药典
+葛花,辛凉解表药,凉,甘,脾|胃,,,,,Gehua,Flos Puerariae Lobatae,SymMap2.0/中国药典
+蔓荆子,辛凉解表药,微寒,辛|苦,膀胱|胃|肝,,,,,Manjingzi,Viticis Fructus,SymMap2.0/中国药典
+蕤仁,辛凉解表药,微寒,甘,肝,,,,,Ruiren,Prinsepiae Nux,SymMap2.0/中国药典
+蜘蛛香,辛凉解表药,温,微苦|辛,心|脾|胃,,,,,Zhizhuxiang,Valerianae Jatamansi Rhizoma Et Radix,SymMap2.0/中国药典
+蝉蜕,辛凉解表药,寒,甘,肺|肝,,3.0,10.0,,Chantui,Periostracum Cicadae,SymMap2.0/中国药典
+芫荽,辛温解表药,温,辛,肺|脾|肝,,,,,Yuansui,,SymMap2.0/中国药典
+苍耳子,辛温解表药,温,辛|苦,肺,有毒,3.0,9.0,,Cang'erzi,Fructus Xanthii Sibirici,SymMap2.0/中国药典
+荆芥穗,辛温解表药,微温,辛,肺|肝,,,,,Jingjiesui,Schizonepetae Spica,SymMap2.0/中国药典
+葱白,辛温解表药,温,辛,肺|胃,,3.0,9.0,,Congbai,Bulbus Allii Fistulosi,SymMap2.0/中国药典
+藁本,辛温解表药,温,辛,膀胱,,3.0,9.0,,Gaoben,Ligustici Rhizoma Et Radix,SymMap2.0/中国药典
+西河柳,辛温解表药,平,甘|辛,心|肺|胃,,3.0,9.0,,Xiheliu,Cacumen Tamaricis,SymMap2.0/中国药典
+辛夷,辛温解表药,温,辛,肺|胃,,3.0,9.0,,Xinyi,Magnoliae Flos,SymMap2.0/中国药典
+零陵香,辛温解表药,平,微甘,,,,,,Linglingxiang,,SymMap2.0/中国药典
+香薷,辛温解表药,微温,辛,肺|胃,,3.0,9.0,,Xiangru,Herba Elsholtziae,SymMap2.0/中国药典
+鹅不食草,辛温解表药,温,辛,肺,,,,,Ebushicao,Herba Centipedae,SymMap2.0/中国药典
+京大戟,通水药,寒,苦,肺|脾|肾,有毒,1.5,3.0,禁用,Jingdaji,Radix Euphorbiae Pekinensis,SymMap2.0/中国药典
+千金子,通水药,温,辛,肝|肾|大肠,有毒,1.0,2.0,禁用,Qianjinzi,Semen Euphorbiae,SymMap2.0/中国药典
+商陆,通水药,寒,苦,肺|脾|肾|大肠,有毒,5.0,10.0,禁用,Shanglu,Radix Phytolaccae,SymMap2.0/中国药典
+牵牛子,通水药,寒,苦,肺|肾|大肠,有毒,3.0,9.0,禁用,Qianniuzi,Pharbitidis Semen,SymMap2.0/中国药典
+狼毒,通水药,平,辛,肝|脾,有毒,,,,Langdu,Euphorbiae Ebracteolatae Radix,SymMap2.0/中国药典
+甘遂,通水药,寒,苦,肺|肾|大肠,有毒,0.5,1.0,禁用,Gansui,Radix Kansui,SymMap2.0/中国药典
+芫花,通水药,温,苦|辛,肺|脾|肾,有毒,1.5,3.0,禁用,Yuanhua,Genkwa Flos,SymMap2.0/中国药典
+使君子,驱虫药,温,甘,脾|胃,,6.0,9.0,,Shijunzi,Quisqualis Fructus,SymMap2.0/中国药典
+南瓜子,驱虫药,平,甘,大肠,,,,,nguazi,Semen Cucurbitae Moschatae,SymMap2.0/中国药典
+南鹤虱,驱虫药,平,苦|辛,脾|胃,小毒,,,,Nanheshi,Carotae Fructus,SymMap2.0/中国药典
+榧子,驱虫药,平,甘,肺|胃|大肠,,,,,Feizi,Torreyae Semen,SymMap2.0/中国药典
+槟榔,驱虫药,温,苦|辛,胃|大肠,,,,,Binglang,Arecae Semen,SymMap2.0/中国药典
+焦槟榔,驱虫药,温,苦|辛,胃|大肠,,,,,Jiaobinglang,Arecae Semen Tostum,SymMap2.0/中国药典
+苦楝子,驱虫药,寒,苦,,小毒,,,,Kulianzi,,SymMap2.0/中国药典
+苦楝皮,驱虫药,寒,苦,肝|脾|胃,有毒,4.5,9.0,,Kulianpi,Meliae Cortex,SymMap2.0/中国药典
+雷丸,驱虫药,寒,微苦,胃|大肠,,15.0,21.0,,Leiwan,Omphalia,SymMap2.0/中国药典
+鹤虱,驱虫药,平,苦|辛,脾|胃,小毒,3.0,10.0,,Heshi,Carpesii Fructus,SymMap2.0/中国药典

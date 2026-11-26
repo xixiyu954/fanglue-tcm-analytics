@@ -1,0 +1,21 @@
+# Python & 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 外部原始下载大文件（本地重建 data/raw/* 时使用，不提交到 Git）
+data/external/
+
+# 运行时 SQLite 数据库（云端首次启动会自动从 data/raw/ 构建，约 4 秒）
+data/fanglue.db
+data/*.db-journal
+data/*.db-wal
+
+# IDE & 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
