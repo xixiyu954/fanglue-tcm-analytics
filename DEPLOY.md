@@ -7,14 +7,22 @@
 
 ---
 
-## 第一步：推送代码到 GitHub
+## 当前线上实例
 
-本地 Git 仓库已初始化并完成首次提交，你只需在 GitHub 上新建一个**空仓库**（例如命名为 `fanglue-tcm-analytics`，不要勾选自动生成 README），然后在项目根目录执行：
+- **公网在线地址**：https://fanglue-tcm.streamlit.app（Streamlit Community Cloud，Python 3.12）
+- **GitHub 代码仓库**：https://github.com/xixiyu954/fanglue-tcm-analytics
+
+后续每次执行 `git push origin main`，Streamlit Community Cloud 会自动拉取最新代码重新部署。
+
+---
+
+## 本地修改后同步更新
 
 ```powershell
 cd C:\Users\Administrator\.gemini\antigravity\scratch\fanglue
-git remote add origin https://github.com/<你的GitHub用户名>/fanglue-tcm-analytics.git
-git push -u origin main
+git add -A
+git commit -m "chore: 更新数据或页面"
+git push origin main
 ```
 
 ---

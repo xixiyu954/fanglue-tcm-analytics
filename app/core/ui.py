@@ -103,14 +103,22 @@ h3 {
     color: #1f2a24;
 }
 
-/* Metric 卡片精修：防副文本被过度截断 */
+/* Metric 卡片精修：适度字号防大数字在窄屏出现省略号 */
 [data-testid="stMetric"] {
     background: #ffffff;
     border-radius: 10px !important;
     padding: 12px 14px !important;
 }
+[data-testid="stMetricLabel"] {
+    font-size: 0.84rem !important;
+}
+[data-testid="stMetricValue"] {
+    font-size: 1.58rem !important;
+    line-height: 1.25 !important;
+}
 [data-testid="stMetricDelta"] {
-    font-size: 0.80rem !important;
+    font-size: 0.76rem !important;
+    white-space: normal !important;
 }
 </style>
         """,

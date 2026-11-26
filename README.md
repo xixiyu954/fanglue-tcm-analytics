@@ -1,5 +1,9 @@
 # 🌿 方略 · 中药方剂配伍与网络药理学智能分析平台
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fanglue-tcm.streamlit.app)
+
+> **在线体验**：👉 **https://fanglue-tcm.streamlit.app**
+>
 > 面向中医药专业学生与科研新手的数据分析与网络药理学工作台：把「查药典—算规律—跑网络药理学—做统计检验—分析产品埋点」整合进一个可在线交互的数据产品。
 > **声明**：仅供学习与科研辅助，不提供任何临床诊疗或用药建议。
 
@@ -62,7 +66,7 @@ streamlit run streamlit_app.py
 
 ## 📝 简历项目描述参考
 
-> **「方略」中药方剂配伍与网络药理学分析平台**｜独立搭建｜在线地址：`https://xxx.streamlit.app`
+> **「方略」中药方剂配伍与网络药理学分析平台**｜独立搭建｜在线地址：https://fanglue-tcm.streamlit.app ｜代码仓库：https://github.com/xixiyu954/fanglue-tcm-analytics
 > - **数据治理与建模**：整合 SymMap v2.0、《方剂学》经典名方及 TCM-MKG 公开数据，建立 13 张规范化 SQLite 数据表，编写 1,251 条别名/炮制品标准化规则，并对 8,977 条原始中成药完成同名不同剂型去重（清洗至 4,360 首独立处方），沉淀 736 味药材、4,544 首方剂、44,843 条组成及 77,177 条实验成分—靶点关系。
 > - **统计挖掘与可视化**：基于 SQL（CTE、窗口函数、自连接）与 Python 实现帕累托、类 TF-IDF 特异性用药、Apriori 关联规则、Louvain 社区发现、层次聚类（ARI 验证）及跨东汉—清朝代寒热演变的 Kruskal-Wallis / 卡方检验。
 > - **跨学科专业壁垒**：搭建网络药理学一键流水线，联动 Open Targets、STRING 12.5 与 g:Profiler 公共 API，将传统跨 5+ 网站手动搬运流程压缩至秒级，输出超几何富集显著性、PPI 核心靶点与四层调控桑基图。

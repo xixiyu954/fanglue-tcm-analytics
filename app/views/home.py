@@ -13,10 +13,10 @@ st.caption("面向中医药专业学生与科研新手的数据分析工作台 �
 
 q = t["quality"].set_index("check_item")["value"]
 c1, c2, c3, c4 = st.columns(4)
-metric_card(c1, "标准药材库", f'{int(q["药材主表数量"]):,} 味', "SymMap v2.0 + 中国药典")
-metric_card(c2, "方剂总数", f'{int(q["方剂总数量"]):,} 首', "184 经典 + 4,360 中成药")
-metric_card(c3, "药名标准化规则", f'{int(q["药名标准化规则数"]):,} 条', f'{int(q["方剂-药材组成记录"]):,} 条组成记录')
-metric_card(c4, "成分—靶点关系", f'{int(q.get("实验成分-靶点关系", 0)):,} 条',
+metric_card(c1, "标准药材库（味）", f'{int(q["药材主表数量"]):,}', "SymMap v2.0 + 中国药典")
+metric_card(c2, "方剂总数（首）", f'{int(q["方剂总数量"]):,}', "184 经典 + 4,360 中成药")
+metric_card(c3, "标准化规则（条）", f'{int(q["药名标准化规则数"]):,}', f'{int(q["方剂-药材组成记录"]):,} 条组成记录')
+metric_card(c4, "成分—靶点关系（条）", f'{int(q.get("实验成分-靶点关系", 0)):,}',
             f'{int(q.get("具名活性化合物数", 0)):,} 个具名化合物')
 
 st.subheader("平台模块导览")
