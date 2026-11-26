@@ -1,0 +1,23 @@
+{
+  "description": "方略随身 · 中药方剂辨析与配伍体检小程序（教育学习工具）",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "appid": "touristappid",
+  "projectname": "fanglue-suishen",
+  "libVersion": "3.4.0",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {}
+}

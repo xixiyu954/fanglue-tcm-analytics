@@ -1,0 +1,9 @@
+{
+  "name": "exportAnalytics",
+  "version": "1.0.0",
+  "description": "导出脱敏后的星型埋点四张表供 Python 后台数仓分析",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

@@ -1,0 +1,122 @@
+<view class="page-wrap">
+  <!-- 模式切换 -->
+  <view class="mode-tabs">
+    <view class="mode-tab {{mode === 'classic' ? 'mode-tab-active' : ''}}" data-mode="classic" bindtap="switchMode">经典名方库 (184首)</view>
+    <view class="mode-tab {{mode === 'free' ? 'mode-tab-active' : ''}}" data-mode="free" bindtap="switchMode">自由输入自测</view>
+  </view>
+
+  <!-- 经典方检索区 -->
+  <view class="card" wx:if="{{mode === 'classic'}}">
+    <input class="search-input" placeholder="搜索方名或出处，如：四君子、桂枝、温病" value="{{keyword}}" bindinput="onSearchInput" />
+    <view class="sub-text" style="margin-bottom: 10rpx;">{{keyword ? '匹配结果（点选查看体检）' : '高频代表方（点选秒出体检）'}}</view>
+    <view class="suggest-list">
+      <text
+        wx:for="{{candidates}}"
+        wx:key="n"
+        class="pill {{selectedName === item.n ? 'pill-active' : ''}}"
+        data-name="{{item.n}}"
+        bindtap="selectClassic"
+      >{{item.n}}</text>
+    </view>
+  </view>
+
+  <!-- 自由输入区 -->
+  <view class="card" wx:if="{{mode === 'free'}}">
+    <textarea
+      class="free-textarea"
+      placeholder="输入药名与剂量（支持炮制品/别名），如：人参9 白术9 茯苓9 炙甘草6"
+      value="{{freeText}}"
+      bindinput="onFreeInput"
+    />
+    <view class="row-between" style="margin-bottom: 16rpx;">
+      <text class="sub-text" bindtap="fillDangerDemo" style="color: #b85d19;">点此试测禁忌方（甘草+海藻+附子+半夏+关木通）</text>
+    </view>
+    <button class="btn-primary" bindtap="runFreeCheck">开始方剂体检</button>
+    <view class="sub-text" wx:if="{{unmatchedText}}" style="color: #b85d19; margin-top: 10rpx;">未收录已跳过：{{unmatchedText}}</view>
+  </view>
+
+  <!-- 体检结果报告 -->
+  <block wx:if="{{report}}">
+    <view class="card card-sage">
+      <view class="row-between">
+        <view style="font-size: 34rpx; font-weight: 700;">{{title}}</view>
+        <view class="sub-text" style="color: rgba(255,255,255,0.88);">{{metaText}}</view>
+      </view>
+      <view class="kpi-grid" style="margin-top: 20rpx;">
+        <view class="kpi-item">
+          <view class="kpi-val">{{report.n_herbs}}味</view>
+          <view class="kpi-lbl">组成药数</view>
+        </view>
+        <view class="kpi-item">
+          <view class="kpi-val">{{report.heat_index > 0 ? '+' + report.heat_index : report.heat_index}}</view>
+          <view class="kpi-lbl">{{report.heat_label}}</view>
+        </view>
+        <view class="kpi-item">
+          <view class="kpi-val">{{report.alerts.length}}条</view>
+          <view class="kpi-lbl">安全提示</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 四气寒热条 + 五味归经 -->
+    <view class="card">
+      <view class="section-title">🌡️ 寒热倾向与五味归经</view>
+      <view class="row-between sub-text">
+        <text>大寒 (-3)</text><text>平和 (0)</text><text>大热 (+3)</text>
+      </view>
+      <view class="heat-bar">
+        <view class="heat-dot" style="left: {{report.heat_pos}}%;"></view>
+      </view>
+
+      <view class="sub-text" style="margin: 18rpx 0 12rpx;">五味分布（按剂量加权）</view>
+      <view class="bar-row" wx:for="{{report.flavors}}" wx:key="name">
+        <text class="bar-label">{{item.name}}</text>
+        <view class="bar-track"><view class="bar-fill" style="width: {{item.pct}}%;"></view></view>
+        <text class="bar-pct">{{item.pct}}%</text>
+      </view>
+
+      <view class="sub-text" style="margin: 18rpx 0 10rpx;">主要归经</view>
+      <view>
+        <text class="pill" wx:for="{{report.meridians}}" wx:key="name">{{item.name}}经 {{item.pct}}%</text>
+      </view>
+    </view>
+
+    <!-- 安全提示 -->
+    <view class="card">
+      <view class="section-title">⚠️ 配伍与安全规则核查</view>
+      <view wx:if="{{report.alerts.length === 0}}" style="color: #2e7d5b; font-size: 26rpx;">
+        ✅ 未检出十八反、十九畏、马兜铃酸肾毒、妊娠禁忌、毒性及超量提示。
+      </view>
+      <view
+        wx:for="{{report.alerts}}"
+        wx:key="msg"
+        class="alert-row {{item.level === '高' ? 'alert-high' : 'alert-mid'}}"
+      >
+        <text style="font-weight: 600;">[{{item.level}}·{{item.type}}] </text>
+        <text>{{item.msg}}</text>
+      </view>
+    </view>
+
+    <!-- 相似经典方 -->
+    <view class="card" wx:if="{{report.similar.length > 0}}">
+      <view class="section-title">🔍 相似经典方 Top 4（Jaccard 对比）</view>
+      <view class="sim-card" wx:for="{{report.similar}}" wx:key="name" data-name="{{item.name}}" bindtap="selectClassic">
+        <view class="row-between">
+          <text style="font-weight: 600; color: #2e7d5b;">{{item.name}} <text class="sub-text">({{item.dyn}}·{{item.cat}})</text></text>
+          <text class="pill" style="margin: 0;">相似度 {{item.simPct}}%</text>
+        </view>
+        <view class="sub-text" style="margin-top: 8rpx;">共有：{{item.common}}</view>
+        <view class="sub-text">该方多出：{{item.more}} ｜ 缺少：{{item.less}}</view>
+      </view>
+    </view>
+
+    <button class="btn-primary" open-type="share">📤 分享这张方剂体检卡片</button>
+    <view class="insight-box">
+      🧬 想进一步跑该方的「活性成分—靶点—STRING PPI—KEGG 通路」网络药理学分析？可在电脑浏览器访问配套工作台：<text selectable="true" style="font-weight: 600;">https://fanglue-tcm.streamlit.app</text>
+    </view>
+  </block>
+
+  <view class="disclaimer">
+    📌 依据《中国药典》与规划教材规则自动比对，仅供学习核查，不构成临床处方建议。
+  </view>
+</view>

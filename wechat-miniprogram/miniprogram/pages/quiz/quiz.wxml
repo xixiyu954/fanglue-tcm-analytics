@@ -1,0 +1,76 @@
+<view class="page-wrap">
+  <!-- 顶部打卡与进度卡 -->
+  <view class="card card-sage">
+    <view class="hero-meta">
+      <view style="font-size: 32rpx; font-weight: 600;">🌿 今日辨方打卡</view>
+      <view class="mode-badge">{{modeLabel}}</view>
+    </view>
+    <view class="kpi-grid">
+      <view class="kpi-item">
+        <view class="kpi-val">{{todayCount}}/10</view>
+        <view class="kpi-lbl">今日进度</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{streakDays}}天</view>
+        <view class="kpi-lbl">连续打卡</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{masteredCount}}</view>
+        <view class="kpi-lbl">已练方剂</view>
+      </view>
+    </view>
+    <view class="progress-track">
+      <view class="progress-fill" style="width: {{progressPct}}%;"></view>
+    </view>
+  </view>
+
+  <!-- 题目卡片 -->
+  <view class="card" wx:if="{{question}}">
+    <view class="row-between">
+      <view>
+        <text class="pill">{{question.q_type_label}}</text>
+        <text class="pill pill-warn" wx:if="{{question.is_review}}">遗忘曲线复习</text>
+        <text class="pill" wx:if="{{focusCategory}}">专项：{{focusCategory}}</text>
+      </view>
+      <text class="sub-text" wx:if="{{focusCategory}}" bindtap="clearFocus">退出专项</text>
+    </view>
+
+    <view style="font-size: 30rpx; font-weight: 600; margin-top: 8rpx;">{{question.prompt}}</view>
+    <view class="q-stem">{{question.stem}}</view>
+
+    <!-- 四个选项 -->
+    <view
+      wx:for="{{question.options}}"
+      wx:key="label"
+      class="opt-btn {{answered ? (item.isCorrect ? 'opt-correct' : (selectedLabel === item.label ? 'opt-wrong' : '')) : ''}}"
+      data-label="{{item.label}}"
+      bindtap="onChooseOption"
+    >
+      <text>{{item.label}}</text>
+      <text class="opt-sim" wx:if="{{answered && question.q_type === 'similar_discriminate' && !item.isCorrect && item.sim > 0}}">相似度 {{item.sim}}</text>
+      <text class="opt-sim" wx:if="{{answered && item.isCorrect}}">✓ 正答</text>
+    </view>
+
+    <view class="sub-text" wx:if="{{!answered}}">{{question.hint}}</view>
+
+    <!-- 答题后即时对比复盘 -->
+    <view wx:if="{{answered}}">
+      <view class="insight-box">
+        <view style="font-weight: 600; margin-bottom: 6rpx;">
+          {{lastCorrect ? '✅ 回答正确！' : '💡 辨析复盘：正确答案为「' + question.answer + '」'}}
+        </view>
+        <view wx:if="{{diffExplanation}}" style="margin-bottom: 6rpx;">{{diffExplanation}}</view>
+        <view class="sub-text">出处：{{question.dynasty}}《{{question.source}}》 · 主治：{{question.indication}}</view>
+      </view>
+
+      <view class="action-row">
+        <button class="btn-outline" open-type="share">分享考考同学</button>
+        <button class="btn-primary" bindtap="onNextQuestion">下一题 →</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="disclaimer">
+    📌 本小程序为《方剂学》《中药学》教材知识点复习与自测工具，仅供学习研究参考，不构成任何临床诊疗或用药建议。
+  </view>
+</view>

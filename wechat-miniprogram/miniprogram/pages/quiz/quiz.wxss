@@ -1,0 +1,81 @@
+.hero-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18rpx;
+}
+
+.mode-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6rpx 18rpx;
+  border-radius: 999rpx;
+  font-size: 22rpx;
+}
+
+.progress-track {
+  height: 12rpx;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999rpx;
+  overflow: hidden;
+  margin-top: 18rpx;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #f5d791;
+  border-radius: 999rpx;
+  transition: width 0.25s ease;
+}
+
+.q-stem {
+  background: #f6f8f4;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #1f2a24;
+  margin: 16rpx 0 22rpx;
+  line-height: 1.65;
+}
+
+.opt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24rpx 26rpx;
+  border-radius: 16rpx;
+  border: 2rpx solid #dce5de;
+  background: #ffffff;
+  margin-bottom: 16rpx;
+  font-size: 29rpx;
+  font-weight: 500;
+}
+
+.opt-correct {
+  background: #e9f6ef;
+  border-color: #2e7d5b;
+  color: #1e6043;
+  font-weight: 600;
+}
+
+.opt-wrong {
+  background: #fdeeee;
+  border-color: #c94a3f;
+  color: #a63228;
+}
+
+.opt-sim {
+  font-size: 22rpx;
+  color: #6b7b73;
+}
+
+.action-row {
+  display: flex;
+  gap: 16rpx;
+  margin-top: 22rpx;
+}
+
+.action-row .btn-primary,
+.action-row .btn-outline {
+  flex: 1;
+}

@@ -12,7 +12,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parents[2]
 DB_PATH = ROOT / "data" / "fanglue.db"
 SQL_DIR = ROOT / "sql"
-REQUIRED_TABLES = {"herb", "formula", "formula_herb", "np_compound", "np_herb_compound", "np_compound_target"}
+REQUIRED_TABLES = {"herb", "formula", "formula_herb", "np_compound", "np_herb_compound", "np_compound_target", "mp_user", "mp_quiz_log"}
 
 
 def ensure_database() -> None:

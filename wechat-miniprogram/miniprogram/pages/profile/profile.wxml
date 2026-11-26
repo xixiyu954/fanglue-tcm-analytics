@@ -1,0 +1,59 @@
+<view class="page-wrap">
+  <view class="card card-sage">
+    <view class="row-between">
+      <view style="font-size: 32rpx; font-weight: 600;">🌿 方略随身 · 学习档案</view>
+      <text style="font-size: 22rpx; opacity: 0.85;">{{cloudEnabled ? '☁️ 云同步已开启' : '📦 本地离线模式'}}</text>
+    </view>
+    <view class="kpi-grid" style="margin-top: 20rpx;">
+      <view class="kpi-item">
+        <view class="kpi-val">{{user.active_days || 1}}</view>
+        <view class="kpi-lbl">活跃天数</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{quizCount}}</view>
+        <view class="kpi-lbl">累计刷题</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{eventCount}}</view>
+        <view class="kpi-lbl">行为日志</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 736 味标准药材速查 -->
+  <view class="card">
+    <view class="section-title">📚 736 味标准药材速查</view>
+    <input
+      style="background:#f5f7f4;border:2rpx solid #dbe4dd;border-radius:14rpx;padding:16rpx 20rpx;margin-bottom:14rpx;"
+      placeholder="输入药名、归经或功效，如：黄芪、脾、清热"
+      value="{{herbKw}}"
+      bindinput="onHerbSearch"
+    />
+    <view class="herb-card" wx:for="{{herbResults}}" wx:key="n">
+      <view class="row-between">
+        <text style="font-weight: 600; font-size: 29rpx;">{{item.n}} <text class="sub-text">({{item.c}})</text></text>
+        <text class="pill" style="margin: 0;">{{item.t}} · {{item.flavorsStr}}</text>
+      </view>
+      <view class="sub-text" style="margin-top: 6rpx;">归经：{{item.meridiansStr}} ｜ 常用量：{{item.doseStr}}</view>
+      <view wx:if="{{item.tx || item.p || item.aa}}" style="margin-top: 6rpx;">
+        <text class="pill pill-danger" wx:if="{{item.aa}}">含马兜铃酸警示</text>
+        <text class="pill pill-warn" wx:if="{{item.tx}}">毒性：{{item.tx}}</text>
+        <text class="pill pill-warn" wx:if="{{item.p}}">孕妇{{item.p}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 匿名埋点信息与导出（供同步到后台分析看板） -->
+  <view class="card">
+    <view class="section-title">🔬 学习研究与数据导出</view>
+    <view class="info-row"><text class="sub-text">匿名学习 ID</text><text>{{user.user_hash}}</text></view>
+    <view class="info-row"><text class="sub-text">实验策略组</text><text>{{user.exp_group}}</text></view>
+    <view class="info-row"><text class="sub-text">来源场景码</text><text>{{user.channel_scene}}</text></view>
+    <view class="info-row"><text class="sub-text">配套 Web 科研平台</text><text style="color:#2e7d5b;" bindtap="copyWebUrl">点此复制链接</text></view>
+    <button class="btn-outline" style="margin-top: 20rpx;" bindtap="exportLogs">📋 复制匿名埋点 JSON（同步后台看板）</button>
+  </view>
+
+  <view class="disclaimer">
+    🔒 隐私与合规声明：本程序仅记录匿名学习 ID、答题正误、耗时与页面访问行为，用于优化间隔重复出题算法与方剂教学研究，不收集姓名、手机号或学号。数据来源：SymMap v2.0、《中国药典》及《方剂学》七版教材。
+  </view>
+</view>

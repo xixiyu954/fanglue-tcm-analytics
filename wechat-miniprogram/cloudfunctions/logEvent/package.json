@@ -1,0 +1,9 @@
+{
+  "name": "logEvent",
+  "version": "1.0.0",
+  "description": "方略随身 · 匿名脱敏埋点写入（自动对微信 OPENID 做 SHA-256 哈希）",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

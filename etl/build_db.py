@@ -140,9 +140,50 @@ def build_database(db_path: Path = DB_PATH, verbose: bool = True) -> pd.DataFram
                 event      TEXT NOT NULL,
                 detail     TEXT
             );
+            CREATE TABLE IF NOT EXISTS mp_user (
+                user_hash     TEXT PRIMARY KEY,
+                register_date TEXT NOT NULL,
+                first_seen_at TEXT NOT NULL,
+                channel_scene TEXT NOT NULL,
+                inviter_hash  TEXT DEFAULT '',
+                exp_group     TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS mp_quiz_log (
+                log_id             INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_hash          TEXT NOT NULL,
+                ts                 TEXT NOT NULL,
+                exp_group          TEXT NOT NULL,
+                formula            TEXT NOT NULL,
+                category           TEXT DEFAULT '',
+                q_type             TEXT NOT NULL,
+                chosen             TEXT DEFAULT '',
+                distractor_max_sim REAL DEFAULT 0,
+                is_correct         INTEGER NOT NULL,
+                duration_ms        INTEGER DEFAULT 0,
+                is_review          INTEGER DEFAULT 0
+            );
+            CREATE TABLE IF NOT EXISTS mp_event (
+                event_id    INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_hash   TEXT NOT NULL,
+                session_id  TEXT DEFAULT '',
+                ts          TEXT NOT NULL,
+                page        TEXT DEFAULT '',
+                event       TEXT NOT NULL,
+                exp_group   TEXT DEFAULT '',
+                params_json TEXT DEFAULT '{}'
+            );
+            CREATE TABLE IF NOT EXISTS mp_share (
+                share_id     INTEGER PRIMARY KEY AUTOINCREMENT,
+                inviter_hash TEXT NOT NULL,
+                invitee_hash TEXT NOT NULL,
+                card_type    TEXT DEFAULT 'formula_card',
+                ts           TEXT NOT NULL
+            );
             CREATE INDEX IF NOT EXISTS idx_fh_formula ON formula_herb(formula);
             CREATE INDEX IF NOT EXISTS idx_fh_herb ON formula_herb(herb);
             CREATE INDEX IF NOT EXISTS idx_f_type ON formula(formula_type);
+            CREATE INDEX IF NOT EXISTS idx_mpq_user ON mp_quiz_log(user_hash);
+            CREATE INDEX IF NOT EXISTS idx_mpe_user ON mp_event(user_hash);
         """)
         if has_np:
             con.executescript("""

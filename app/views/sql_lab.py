@@ -9,7 +9,7 @@ st.title("🧪 SQL 实验室")
 st.caption("项目中所有面试向分析 SQL 均存放在 sql/ 目录（覆盖 CTE、窗口函数、索引自连接提升度、漏斗与 LAG 回访），支持在线只读运行")
 
 files = sorted(p.name for p in SQL_DIR.glob("*.sql"))
-tab1, tab2, tab3 = st.tabs(["📂 项目分析 SQL (9 条)", "✍️ 自由只读查询", "🗂️ 数据字典 (13 张表)"])
+tab1, tab2, tab3 = st.tabs([f"📂 项目分析 SQL ({len(files)} 条)", "✍️ 自由只读查询", "🗂️ 数据字典 (17 张表)"])
 
 with tab1:
     name = st.selectbox("选择 SQL 文件", files)
@@ -59,5 +59,9 @@ with tab3:
 | `np_herb_compound` | 药材 × 化合物 | herb, cid | 20,694 条药材—活性成分关系（覆盖 605 味药） |
 | `np_compound_target` | 化合物 × 基因 | cid, gene | 77,177 条实验验证成分—靶点基因关系 |
 | `np_disease_target` | 疾病 × 基因 | disease_zh, disease_en, efo_id, gene, score | Open Targets 预置 12 种常见研究疾病靶点 |
-| `events` | 一次用户行为 | event_id, session_id, ts, page, event, detail | 平台自身匿名埋点日志（漏斗与回访分析） |
+| `events` | 一次 Web 行为 | event_id, session_id, ts, page, event, detail | Web 端匿名埋点日志（漏斗与回访分析） |
+| `mp_user` | 一名小程序用户 | user_hash, register_date, first_seen_at, channel_scene, inviter_hash, exp_group | 「方略随身」小程序用户维表（脱敏哈希 ID + A/B 分组 + 渠道） |
+| `mp_quiz_log` | 一次小程序答题 | log_id, user_hash, ts, exp_group, formula, category, q_type, chosen, distractor_max_sim, is_correct, duration_ms, is_review | 答题事实表（支撑 A/B 检验与 Jaccard 混淆矩阵） |
+| `mp_event` | 一次小程序行为 | event_id, user_hash, session_id, ts, page, event, exp_group, params_json | 小程序页面访问与功能埋点 |
+| `mp_share` | 一次分享转化 | share_id, inviter_hash, invitee_hash, card_type, ts | 微信群/单聊卡片社交裂变转化日志 |
 """)

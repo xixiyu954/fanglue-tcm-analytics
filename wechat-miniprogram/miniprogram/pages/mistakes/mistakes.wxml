@@ -1,0 +1,64 @@
+<view class="page-wrap">
+  <view class="card card-sage">
+    <view style="font-size: 32rpx; font-weight: 600; margin-bottom: 16rpx;">🧩 个人掌握度与易混图谱</view>
+    <view class="kpi-grid">
+      <view class="kpi-item">
+        <view class="kpi-val">{{summary.totalLogs}}</view>
+        <view class="kpi-lbl">累计答题</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{summary.overallAcc}}%</view>
+        <view class="kpi-lbl">总正确率</view>
+      </view>
+      <view class="kpi-item">
+        <view class="kpi-val">{{summary.topWrong.length}}</view>
+        <view class="kpi-lbl">待攻克错方</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{summary.totalLogs === 0}}">
+    <view style="text-align: center; padding: 36rpx 0;">
+      <view style="font-size: 30rpx; font-weight: 600; margin-bottom: 10rpx;">还没有答题记录</view>
+      <view class="sub-text" style="margin-bottom: 24rpx;">去「每日辨方」完成几道题，这里会自动生成你的薄弱类别与易混淆方对图谱</view>
+      <button class="btn-primary" bindtap="goQuiz">去刷 10 题 →</button>
+    </view>
+  </view>
+
+  <block wx:if="{{summary.totalLogs > 0}}">
+    <view class="card">
+      <view class="section-title">
+        <text>📊 各类别正确率（由弱到强）</text>
+        <text class="sub-text">点击进入专项突击</text>
+      </view>
+      <view class="cat-row" wx:for="{{summary.catStats}}" wx:key="cat" data-cat="{{item.cat}}" bindtap="practiceCategory">
+        <text class="cat-name">{{item.cat}}</text>
+        <view class="cat-bar">
+          <view class="cat-fill" style="width: {{item.acc}}%; background: {{item.acc < 60 ? '#c94a3f' : (item.acc < 80 ? '#d4843e' : '#2e7d5b')}};"></view>
+        </view>
+        <text class="cat-right">{{item.acc}}% ({{item.right}}/{{item.total}})</text>
+      </view>
+    </view>
+
+    <view class="card" wx:if="{{summary.topConfused.length > 0}}">
+      <view class="section-title">🔀 高频混淆方对</view>
+      <view class="confuse-item" wx:for="{{summary.topConfused}}" wx:key="key">
+        <view>
+          <view style="font-weight: 600; color: #8f241c;">{{item.key}}</view>
+          <view class="sub-text">组成相似度 {{item.sim}}</view>
+        </view>
+        <text class="pill pill-danger" style="margin: 0;">混淆 {{item.count}} 次</text>
+      </view>
+    </view>
+
+    <view class="card" wx:if="{{summary.topWrong.length > 0}}">
+      <view class="section-title">📌 高频错题方剂</view>
+      <view>
+        <text class="pill pill-warn" wx:for="{{summary.topWrong}}" wx:key="name" data-name="{{item.name}}" bindtap="inspectFormula">
+          {{item.name}} (错{{item.wrong}}次)
+        </text>
+      </view>
+      <view class="sub-text" style="margin-top: 8rpx;">点击任意方剂跳转到体检页查看组成与相似方对比</view>
+    </view>
+  </block>
+</view>

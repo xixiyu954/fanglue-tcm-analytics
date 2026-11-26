@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/quiz/quiz",
+    "pages/check/check",
+    "pages/mistakes/mistakes",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2e7d5b",
+    "navigationBarTitleText": "方略随身",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fbfaf6"
+  },
+  "tabBar": {
+    "color": "#6b7b73",
+    "selectedColor": "#2e7d5b",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/quiz/quiz",
+        "text": "每日辨方"
+      },
+      {
+        "pagePath": "pages/check/check",
+        "text": "方剂体检"
+      },
+      {
+        "pagePath": "pages/mistakes/mistakes",
+        "text": "错题图谱"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

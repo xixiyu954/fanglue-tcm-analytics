@@ -41,8 +41,9 @@ pg = st.navigation({
         st.Page("app/views/network_pharmacology.py", title="网络药理学", icon="🧬"),
     ],
     "工程与产品分析": [
+        st.Page("app/views/miniprogram_growth.py", title="小程序增长与 A/B 实验", icon="📱"),
         st.Page("app/views/sql_lab.py", title="SQL 实验室", icon="🧪"),
-        st.Page("app/views/user_behavior.py", title="用户行为分析", icon="📈"),
+        st.Page("app/views/user_behavior.py", title="Web 行为分析", icon="📈"),
     ],
 })
 pg.run()
